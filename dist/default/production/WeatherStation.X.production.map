@@ -1,0 +1,1095 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                              build/default/production/TWIMaster.o (__addsf3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o) (__addsf3x)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o)
+                              build/default/production/TWIMaster.o (__divsf3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o) (__divsf3x)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                              build/default/production/TWIMaster.o (__fixunssfsi)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                              build/default/production/TWIMaster.o (__floatunsisf)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_inf)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_nan)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscA)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscB)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o) (__fp_round)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_split3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_zero)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o)
+                              build/default/production/TWIMaster.o (pow)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o) (exp)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o) (__fp_powser)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(inverse.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o) (inverse)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o) (ldexp)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o) (log)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(modf.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o) (modf)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o) (__mulsf3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o) (__mulsf3x)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_mpack.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o) (__fp_mpack)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+                              build/default/production/TWIMaster.o (__udivmodsi4)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+                              /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o (exit)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+                              build/default/production/GPIO_Port.o (__do_copy_data)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+                              build/default/production/UART.o (__do_clear_bss)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+                              build/default/production/main.o (__do_global_ctors)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+                              build/default/production/main.o (__do_global_dtors)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+                              build/default/production/Timer.o (__muldi3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o) (__muldi3_6)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+                              build/default/production/Timer.o (__udivdi3)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o) (__udivmod64)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+                              build/default/production/Timer.o (__adddi3_s8)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o) (__tablejump2__)
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+                              /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o) (__umulhisi3)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .bss           0x0000000000000000        0x0 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .text          0x0000000000000000        0x0 build/default/production/TWIMaster.o
+ .data          0x0000000000000000        0x0 build/default/production/TWIMaster.o
+ .bss           0x0000000000000000        0x0 build/default/production/TWIMaster.o
+ .text._ZN9TWIMasterD2Ev
+                0x0000000000000000        0x2 build/default/production/TWIMaster.o
+ .text._ZN9TWIMaster5StartEc
+                0x0000000000000000       0x4c build/default/production/TWIMaster.o
+ .text          0x0000000000000000        0x0 build/default/production/GPIO.o
+ .data          0x0000000000000000        0x0 build/default/production/GPIO.o
+ .bss           0x0000000000000000        0x0 build/default/production/GPIO.o
+ .text._ZN4GPIO3getEv
+                0x0000000000000000        0xe build/default/production/GPIO.o
+ .text._ZN4GPIO5clearEv
+                0x0000000000000000        0x8 build/default/production/GPIO.o
+ .text._ZN4GPIO6toggleEv
+                0x0000000000000000        0xe build/default/production/GPIO.o
+ .text          0x0000000000000000        0x0 build/default/production/GPIO_Port.o
+ .data          0x0000000000000000        0x0 build/default/production/GPIO_Port.o
+ .bss           0x0000000000000000        0x0 build/default/production/GPIO_Port.o
+ .text._ZN9GPIO_PORT9GPIO_Port5clearEh
+                0x0000000000000000        0xc build/default/production/GPIO_Port.o
+ .text._ZN9GPIO_PORT9GPIO_Port3getEh
+                0x0000000000000000        0xe build/default/production/GPIO_Port.o
+ .text._ZN9GPIO_PORT9GPIO_Port6toggleEh
+                0x0000000000000000        0x6 build/default/production/GPIO_Port.o
+ .group         0x0000000000000000        0x8 build/default/production/UART.o
+ .text          0x0000000000000000        0x0 build/default/production/UART.o
+ .data          0x0000000000000000        0x0 build/default/production/UART.o
+ .bss           0x0000000000000000        0x0 build/default/production/UART.o
+ .text          0x0000000000000000        0x0 build/default/production/Timeout.o
+ .data          0x0000000000000000        0x0 build/default/production/Timeout.o
+ .bss           0x0000000000000000        0x0 build/default/production/Timeout.o
+ .text._ZN7Timeout7TimeoutC2Ev
+                0x0000000000000000       0x10 build/default/production/Timeout.o
+ .text._ZN7Timeout7TimeoutD2Ev
+                0x0000000000000000        0x2 build/default/production/Timeout.o
+ .text._ZN7Timeout7Timeout6configEmPFvvE
+                0x0000000000000000       0x14 build/default/production/Timeout.o
+ .text._ZN7Timeout7Timeout8callbackEv
+                0x0000000000000000       0x24 build/default/production/Timeout.o
+ .text._ZN7Timeout7Timeout5eventEv
+                0x0000000000000000        0x6 build/default/production/Timeout.o
+ .text._ZN7Timeout7Timeout6enableEv
+                0x0000000000000000        0x8 build/default/production/Timeout.o
+ .text._ZN7Timeout7Timeout7disableEv
+                0x0000000000000000        0x6 build/default/production/Timeout.o
+ .group         0x0000000000000000        0x8 build/default/production/Timer.o
+ .text          0x0000000000000000        0x0 build/default/production/Timer.o
+ .data          0x0000000000000000        0x0 build/default/production/Timer.o
+ .bss           0x0000000000000000        0x0 build/default/production/Timer.o
+ .text._ZN5TimerC2Emh
+                0x0000000000000000      0x3ba build/default/production/Timer.o
+ .text._ZN5Timer6millisEv
+                0x0000000000000000       0x68 build/default/production/Timer.o
+ .text._ZN5Timer6microsEv
+                0x0000000000000000       0x48 build/default/production/Timer.o
+ .text._ZN5Timer5delayEy
+                0x0000000000000000        0x2 build/default/production/Timer.o
+ .text._ZN5Timer6udelayEy
+                0x0000000000000000        0x2 build/default/production/Timer.o
+ .text._ZN5Timer10addTimeoutEmPFvvE
+                0x0000000000000000       0x6e build/default/production/Timer.o
+ .text._ZN5Timer14timeoutManagerEv
+                0x0000000000000000       0x74 build/default/production/Timer.o
+ .rodata._ZZN5TimerC4EmhE10Period_div
+                0x0000000000000000       0x28 build/default/production/Timer.o
+ .bss._ZZN5TimerC4EmhE9Timer_Top
+                0x0000000000000000        0x2 build/default/production/Timer.o
+ .group         0x0000000000000000        0x8 build/default/production/Peripheral.o
+ .text          0x0000000000000000        0x0 build/default/production/Peripheral.o
+ .data          0x0000000000000000        0x0 build/default/production/Peripheral.o
+ .bss           0x0000000000000000        0x0 build/default/production/Peripheral.o
+ .text._ZN10PeripheralD2Ev
+                0x0000000000000000        0x2 build/default/production/Peripheral.o
+ .text._ZN10PeripheralD0Ev
+                0x0000000000000000        0x6 build/default/production/Peripheral.o
+ .text._ZN10PeripheralC2Ev
+                0x0000000000000000        0xc build/default/production/Peripheral.o
+ .text._ZN10PeripheralC2ERKS_
+                0x0000000000000000        0xc build/default/production/Peripheral.o
+ .rodata._ZTV10Peripheral
+                0x0000000000000000        0x8 build/default/production/Peripheral.o
+ .comment       0x0000000000000000       0x31 build/default/production/Peripheral.o
+ .group         0x0000000000000000        0x8 build/default/production/IO.o
+ .text          0x0000000000000000        0x0 build/default/production/IO.o
+ .data          0x0000000000000000        0x0 build/default/production/IO.o
+ .bss           0x0000000000000000        0x0 build/default/production/IO.o
+ .text._ZN2IOD2Ev
+                0x0000000000000000        0x2 build/default/production/IO.o
+ .text._ZN2IOD0Ev
+                0x0000000000000000        0x6 build/default/production/IO.o
+ .text._ZN2IOC2Ev
+                0x0000000000000000        0xc build/default/production/IO.o
+ .text._ZN2IOC2ERKS_
+                0x0000000000000000        0xc build/default/production/IO.o
+ .rodata._ZTV2IO
+                0x0000000000000000        0x8 build/default/production/IO.o
+ .comment       0x0000000000000000       0x31 build/default/production/IO.o
+ .text          0x0000000000000000        0x0 build/default/production/main.o
+ .data          0x0000000000000000        0x0 build/default/production/main.o
+ .bss           0x0000000000000000        0x0 build/default/production/main.o
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(inverse.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(inverse.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(inverse.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(modf.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(modf.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(modf.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_mpack.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_mpack.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_mpack.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0xa0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x12 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_muldi3_6.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.div
+                0x0000000000000000       0x1c /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.div
+                0x0000000000000000       0xa2 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmod64.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+ .text          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000000000       0x1e /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_umulhisi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000040000 xr
+data             0x0000000000800200 0x0000000000002000 rw !x
+eeprom           0x0000000000810000 0x0000000000001000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+LOAD build/default/production/TWIMaster.o
+LOAD build/default/production/GPIO.o
+LOAD build/default/production/GPIO_Port.o
+LOAD build/default/production/UART.o
+LOAD build/default/production/Timeout.o
+LOAD build/default/production/Timer.o
+LOAD build/default/production/Peripheral.o
+LOAD build/default/production/IO.o
+LOAD build/default/production/main.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+START GROUP
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a
+END GROUP
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a
+START GROUP
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a
+LOAD /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libc.a
+LOAD /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/libatmega2560.a
+END GROUP
+                [0x0000000000040000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x100000
+                [0x0000000000002000]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xfe00
+                [0x0000000000001000]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1380
+ *(.vectors)
+ .vectors       0x0000000000000000       0xe4 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x00000000000000e4       0x28 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+ .progmem.gcc_fplib
+                0x000000000000010c       0x5a /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+                0x0000000000000166                . = ALIGN (0x2)
+                0x0000000000000166                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000166        0x8 linker stubs
+ *(.trampolines*)
+                0x000000000000016e                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000000000000016e                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000016e                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000000000016e        0x2 build/default/production/main.o
+                0x0000000000000170                __ctors_end = .
+                0x0000000000000170                __dtors_start = .
+ *(.dtors)
+ .dtors         0x0000000000000170        0x2 build/default/production/main.o
+                0x0000000000000172                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000172        0x0 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x0000000000000172                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000172       0x10 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000182       0x1a /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+                0x0000000000000182                __do_copy_data
+ .init4         0x000000000000019c       0x10 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+                0x000000000000019c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x00000000000001ac       0x20 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_ctors.o)
+                0x00000000000001ac                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000001cc        0x8 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000001d4        0x4 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x00000000000001d4                __vector_38
+                0x00000000000001d4                __vector_22
+                0x00000000000001d4                __vector_28
+                0x00000000000001d4                __vector_1
+                0x00000000000001d4                __vector_32
+                0x00000000000001d4                __vector_34
+                0x00000000000001d4                __vector_24
+                0x00000000000001d4                __vector_12
+                0x00000000000001d4                __vector_55
+                0x00000000000001d4                __vector_46
+                0x00000000000001d4                __bad_interrupt
+                0x00000000000001d4                __vector_6
+                0x00000000000001d4                __vector_31
+                0x00000000000001d4                __vector_39
+                0x00000000000001d4                __vector_3
+                0x00000000000001d4                __vector_30
+                0x00000000000001d4                __vector_11
+                0x00000000000001d4                __vector_54
+                0x00000000000001d4                __vector_13
+                0x00000000000001d4                __vector_17
+                0x00000000000001d4                __vector_19
+                0x00000000000001d4                __vector_56
+                0x00000000000001d4                __vector_7
+                0x00000000000001d4                __vector_49
+                0x00000000000001d4                __vector_41
+                0x00000000000001d4                __vector_43
+                0x00000000000001d4                __vector_27
+                0x00000000000001d4                __vector_5
+                0x00000000000001d4                __vector_33
+                0x00000000000001d4                __vector_47
+                0x00000000000001d4                __vector_52
+                0x00000000000001d4                __vector_37
+                0x00000000000001d4                __vector_4
+                0x00000000000001d4                __vector_44
+                0x00000000000001d4                __vector_51
+                0x00000000000001d4                __vector_9
+                0x00000000000001d4                __vector_2
+                0x00000000000001d4                __vector_21
+                0x00000000000001d4                __vector_15
+                0x00000000000001d4                __vector_36
+                0x00000000000001d4                __vector_29
+                0x00000000000001d4                __vector_40
+                0x00000000000001d4                __vector_8
+                0x00000000000001d4                __vector_48
+                0x00000000000001d4                __vector_14
+                0x00000000000001d4                __vector_53
+                0x00000000000001d4                __vector_10
+                0x00000000000001d4                __vector_16
+                0x00000000000001d4                __vector_18
+                0x00000000000001d4                __vector_42
+                0x00000000000001d8                . = ALIGN (0x2)
+ *(.text.*)
+ .text._ZN9TWIMasterC2Em
+                0x00000000000001d8       0x8e build/default/production/TWIMaster.o
+                0x00000000000001d8                _ZN9TWIMasterC1Em
+                0x00000000000001d8                _ZN9TWIMasterC2Em
+ .text._ZN9TWIMaster14Repeated_StartEc
+                0x0000000000000266       0x4c build/default/production/TWIMaster.o
+                0x0000000000000266                _ZN9TWIMaster14Repeated_StartEc
+ .text._ZN9TWIMaster4StopEv
+                0x00000000000002b2       0x12 build/default/production/TWIMaster.o
+                0x00000000000002b2                _ZN9TWIMaster4StopEv
+ .text._ZN9TWIMaster10Start_WaitEc
+                0x00000000000002c4       0x84 build/default/production/TWIMaster.o
+                0x00000000000002c4                _ZN9TWIMaster10Start_WaitEc
+ .text._ZN9TWIMaster5WriteEc
+                0x0000000000000348       0x2e build/default/production/TWIMaster.o
+                0x0000000000000348                _ZN9TWIMaster5WriteEc
+ .text._ZN9TWIMaster8Read_AckEv
+                0x0000000000000376       0x16 build/default/production/TWIMaster.o
+                0x0000000000000376                _ZN9TWIMaster8Read_AckEv
+ .text._ZN9TWIMaster9Read_NackEv
+                0x000000000000038c       0x16 build/default/production/TWIMaster.o
+                0x000000000000038c                _ZN9TWIMaster9Read_NackEv
+ .text._ZN9TWIMaster5writeEPKchhh
+                0x00000000000003a2       0x5a build/default/production/TWIMaster.o
+                0x00000000000003a2                _ZN9TWIMaster5writeEPKchhh
+ .text._ZN9TWIMaster7receiveEPchhh
+                0x00000000000003fc       0x94 build/default/production/TWIMaster.o
+                0x00000000000003fc                _ZN9TWIMaster7receiveEPchhh
+ .text._ZN4GPIOC2EhNS_15PortDirection_tE
+                0x0000000000000490       0x3e build/default/production/GPIO.o
+                0x0000000000000490                _ZN4GPIOC1EhNS_15PortDirection_tE
+                0x0000000000000490                _ZN4GPIOC2EhNS_15PortDirection_tE
+ .text._ZN4GPIOD2Ev
+                0x00000000000004ce        0x2 build/default/production/GPIO.o
+                0x00000000000004ce                _ZN4GPIOD1Ev
+                0x00000000000004ce                _ZN4GPIOD2Ev
+ .text._ZN4GPIO3setEb
+                0x00000000000004d0       0x10 build/default/production/GPIO.o
+                0x00000000000004d0                _ZN4GPIO3setEb
+ .text._ZN9GPIO_PORT9GPIO_Port3dirEhb
+                0x00000000000004e0       0x1a build/default/production/GPIO_Port.o
+                0x00000000000004e0                _ZN9GPIO_PORT9GPIO_Port3dirEhb
+ .text._ZN9GPIO_PORT9GPIO_Port3setEhb
+                0x00000000000004fa       0x1a build/default/production/GPIO_Port.o
+                0x00000000000004fa                _ZN9GPIO_PORT9GPIO_Port3setEhb
+ .text._ZN4UARTC2EjNS_10DataBits_tENS_8Parity_tENS_9StopBit_tEh
+                0x0000000000000514       0x88 build/default/production/UART.o
+                0x0000000000000514                _ZN4UARTC1EjNS_10DataBits_tENS_8Parity_tENS_9StopBit_tEh
+                0x0000000000000514                _ZN4UARTC2EjNS_10DataBits_tENS_8Parity_tENS_9StopBit_tEh
+ .text._ZN4UARTD2Ev
+                0x000000000000059c        0xa build/default/production/UART.o
+                0x000000000000059c                _ZN4UARTD1Ev
+                0x000000000000059c                _ZN4UARTD2Ev
+ .text._ZN4UART3putEh
+                0x00000000000005a6       0x40 build/default/production/UART.o
+                0x00000000000005a6                _ZN4UART3putEh
+ .text._ZN4UART4putsEPKc
+                0x00000000000005e6       0x2a build/default/production/UART.o
+                0x00000000000005e6                _ZN4UART4putsEPKc
+ .text._ZN4UART3getEv
+                0x0000000000000610       0x30 build/default/production/UART.o
+                0x0000000000000610                _ZN4UART3getEv
+ .text._ZN4UART8has_dataEv
+                0x0000000000000640       0x10 build/default/production/UART.o
+                0x0000000000000640                _ZN4UART8has_dataEv
+ .text._ZN4UART15rxc_isr_handlerEv
+                0x0000000000000650       0x40 build/default/production/UART.o
+                0x0000000000000650                _ZN4UART15rxc_isr_handlerEv
+ .text.__vector_25
+                0x0000000000000690       0x50 build/default/production/UART.o
+                0x0000000000000690                __vector_25
+ .text._ZN4UART16udre_isr_handlerEv
+                0x00000000000006e0       0x50 build/default/production/UART.o
+                0x00000000000006e0                _ZN4UART16udre_isr_handlerEv
+ .text.__vector_26
+                0x0000000000000730       0x50 build/default/production/UART.o
+                0x0000000000000730                __vector_26
+ .text._ZN7Timeout7Timeout12checkTimeoutEv
+                0x0000000000000780       0x3e build/default/production/Timeout.o
+                0x0000000000000780                _ZN7Timeout7Timeout12checkTimeoutEv
+ .text._ZN5Timer15ovf_isr_handlerEv
+                0x00000000000007be       0xc8 build/default/production/Timer.o
+                0x00000000000007be                _ZN5Timer15ovf_isr_handlerEv
+ .text.__vector_23
+                0x0000000000000886       0x50 build/default/production/Timer.o
+                0x0000000000000886                __vector_23
+ .text.__vector_20
+                0x00000000000008d6       0x50 build/default/production/Timer.o
+                0x00000000000008d6                __vector_20
+ .text.__vector_35
+                0x0000000000000926       0x50 build/default/production/Timer.o
+                0x0000000000000926                __vector_35
+ .text.__vector_45
+                0x0000000000000976       0x50 build/default/production/Timer.o
+                0x0000000000000976                __vector_45
+ .text.__vector_50
+                0x00000000000009c6       0x50 build/default/production/Timer.o
+                0x00000000000009c6                __vector_50
+ .text.main     0x0000000000000a16      0x182 build/default/production/main.o
+                0x0000000000000a16                main
+ .text._GLOBAL__sub_I_uart
+                0x0000000000000b98       0x2a build/default/production/main.o
+ .text._GLOBAL__sub_D_uart
+                0x0000000000000bc2       0x12 build/default/production/main.o
+ .text.avr-libc.fplib
+                0x0000000000000bd4        0xe /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                0x0000000000000bd4                __subsf3
+                0x0000000000000bd6                __addsf3
+ .text.avr-libc.fplib
+                0x0000000000000be2       0xcc /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                0x0000000000000c04                __addsf3x
+ .text.avr-libc.fplib
+                0x0000000000000cae        0x8 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3.o)
+                0x0000000000000cae                __divsf3
+ .text.avr-libc.fplib
+                0x0000000000000cb6       0xdc /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(divsf3x.o)
+                0x0000000000000cd6                __divsf3x
+                0x0000000000000cdc                __divsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000000d92       0x5e /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                0x0000000000000d92                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000000df0       0x7a /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                0x0000000000000df0                __floatunsisf
+                0x0000000000000df4                __floatsisf
+ .text.avr-libc.fplib
+                0x0000000000000e6a        0xc /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                0x0000000000000e6a                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000000e76        0x6 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                0x0000000000000e76                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000000e7c        0xe /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                0x0000000000000e7c                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000000e8a        0xe /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                0x0000000000000e8a                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000000e98       0x22 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                0x0000000000000e98                __fp_round
+ .text.avr-libc.fplib
+                0x0000000000000eba       0x44 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                0x0000000000000eba                __fp_split3
+                0x0000000000000eca                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000000efe        0xe /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                0x0000000000000efe                __fp_zero
+                0x0000000000000f00                __fp_szero
+ .text.avr-libc.fplib
+                0x0000000000000f0c       0xa0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(pow.o)
+                0x0000000000000f0c                pow
+ .text.avr-libc.fplib
+                0x0000000000000fac       0x74 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(exp.o)
+                0x0000000000000fbc                exp
+ .text.avr-libc.fplib
+                0x0000000000001020       0x4e /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_powser.o)
+                0x0000000000001020                __fp_powser
+ .text.avr-libc.fplib
+                0x000000000000106e       0x10 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(inverse.o)
+                0x000000000000106e                inverse
+ .text.avr-libc.fplib
+                0x000000000000107e       0x74 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(ldexp.o)
+                0x0000000000001086                ldexp
+ .text.avr-libc.fplib
+                0x00000000000010f2       0xa0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(log.o)
+                0x0000000000001102                log
+ .text.avr-libc.fplib
+                0x0000000000001192       0x68 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(modf.o)
+                0x0000000000001192                modff
+                0x0000000000001192                modf
+ .text.avr-libc.fplib
+                0x00000000000011fa        0x8 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                0x00000000000011fa                __mulsf3
+ .text.avr-libc.fplib
+                0x0000000000001202       0xd2 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                0x0000000000001220                __mulsf3x
+                0x0000000000001226                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00000000000012d4       0x1c /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6/libm.a(fp_mpack.o)
+                0x00000000000012d4                __fp_mpack
+                0x00000000000012d8                __fp_mpack_finite
+ .text.libgcc.div
+                0x00000000000012f0       0x44 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_udivmodsi4.o)
+                0x00000000000012f0                __udivmodsi4
+ .text.libgcc   0x0000000000001334       0x18 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+                0x0000000000001334                __adddi3_s8
+ .text.libgcc   0x000000000000134c       0x10 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_tablejump2.o)
+                0x000000000000134c                __tablejump2__
+                0x000000000000135c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000135c        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+                0x000000000000135c                exit
+                0x000000000000135c                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ .fini6         0x000000000000135c       0x20 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_dtors.o)
+                0x000000000000135c                __do_global_dtors
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000137c        0x4 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001380                _etext = .
+
+.data           0x0000000000800200       0xc4 load address 0x0000000000001380
+                0x0000000000800200                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data._ZN9GPIO_PORT8AllPortsE
+                0x0000000000800200       0x16 build/default/production/GPIO_Port.o
+                0x0000000000800200                _ZN9GPIO_PORT8AllPortsE
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZN9GPIO_PORT9id_to_bitE
+                0x0000000000800216       0x46 build/default/production/GPIO_Port.o
+                0x0000000000800216                _ZN9GPIO_PORT9id_to_bitE
+ .rodata._ZN9GPIO_PORT10id_to_portE
+                0x000000000080025c       0x46 build/default/production/GPIO_Port.o
+                0x000000000080025c                _ZN9GPIO_PORT10id_to_portE
+ .rodata.str1.1
+                0x00000000008002a2       0x22 build/default/production/main.o
+ *(.gnu.linkonce.r*)
+                0x00000000008002c4                . = ALIGN (0x2)
+                0x00000000008002c4                _edata = .
+                0x00000000008002c4                PROVIDE (__data_end, .)
+
+.bss            0x00000000008002c4       0x50
+                0x00000000008002c4                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss._ZN9SingletonI4UARTE10_singletonE
+                0x00000000008002c4        0x2 build/default/production/UART.o
+                0x00000000008002c4                _ZN9SingletonI4UARTE10_singletonE
+ .bss._ZN9SingletonI5TimerE10_singletonE
+                0x00000000008002c6        0x2 build/default/production/Timer.o
+                0x00000000008002c6                _ZN9SingletonI5TimerE10_singletonE
+ .bss.EEPROM_1  0x00000000008002c8        0x4 build/default/production/main.o
+                0x00000000008002c8                EEPROM_1
+ .bss.uart      0x00000000008002cc       0x48 build/default/production/main.o
+                0x00000000008002cc                uart
+ *(COMMON)
+                0x0000000000800314                PROVIDE (__bss_end, .)
+                0x0000000000001380                __data_load_start = LOADADDR (.data)
+                0x0000000000001444                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800314        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800314                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x30
+ *(.comment)
+ .comment       0x0000000000000000       0x30 build/default/production/TWIMaster.o
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 build/default/production/GPIO.o
+ .comment       0x0000000000000030       0x31 build/default/production/GPIO_Port.o
+ .comment       0x0000000000000030       0x31 build/default/production/UART.o
+ .comment       0x0000000000000030       0x31 build/default/production/Timeout.o
+ .comment       0x0000000000000030       0x31 build/default/production/Timer.o
+ .comment       0x0000000000000030       0x31 build/default/production/main.o
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0xbbc
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0xbbc /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+
+.debug_abbrev   0x0000000000000000      0xb1a
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xb1a /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+
+.debug_line     0x0000000000000000      0x1f9
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x1f9 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x3e6
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x3e6 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(dist/default/production/WeatherStation.X.production.elf elf32-avr)
+LOAD linker stubs
