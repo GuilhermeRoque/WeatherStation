@@ -23,7 +23,7 @@ build/default/production/main.o.d build/default/production/main.o: \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/string.h \
- GPIO.h GPIO_Port.h
+ GPIO.h GPIO_Port.h IO.h
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/io.h:
 
@@ -78,3 +78,5 @@ Queue.h:
 GPIO.h:
 
 GPIO_Port.h:
+
+IO.h:

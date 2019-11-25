@@ -13,7 +13,7 @@ build/default/production/GPIO.o.d build/default/production/GPIO.o: \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/fuse.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/lock.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h \
- GPIO.h GPIO_Port.h
+ GPIO.h GPIO_Port.h IO.h
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/eeprom.h:
 
@@ -44,3 +44,5 @@ build/default/production/GPIO.o.d build/default/production/GPIO.o: \
 GPIO.h:
 
 GPIO_Port.h:
+
+IO.h:

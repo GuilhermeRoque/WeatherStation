@@ -7,12 +7,6 @@
 
 #include "Peripheral.h"
 
-Peripheral::Peripheral() {
-}
-
-Peripheral::Peripheral(const Peripheral& orig) {
-}
-
-Peripheral::~Peripheral() {
-}
+Peripheral::Peripheral() {}
+Peripheral::~Peripheral() {}
 

@@ -7,12 +7,6 @@
 
 #include "IO.h"
 
-IO::IO() {
-}
-
-IO::IO(const IO& orig) {
-}
-
-IO::~IO() {
-}
+IO::IO() {}
+IO::~IO() {}
 

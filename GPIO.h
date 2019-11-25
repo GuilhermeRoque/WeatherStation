@@ -10,8 +10,9 @@
 
 #include <stdint.h>
 #include "GPIO_Port.h"
+#include "IO.h"
 
-class GPIO {
+class GPIO: public IO {
 public:
     enum PortDirection_t{
         INPUT = 0,
@@ -25,7 +26,10 @@ public:
     void clear();
     void toggle();
  
-private:
+    void read(char *ptr, uint8_t len){}
+    void write(char *ptr, uint8_t len){}
+
+    private:
 	GPIO_PORT::GPIO_Port * _Px;    
     uint8_t _bit;
     uint8_t _id;
