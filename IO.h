@@ -14,6 +14,7 @@ class IO {
 public:
     IO();
     ~IO();
+
     virtual void read(char *ptr, uint8_t len) = 0;
     virtual void write(char *ptr, uint8_t len) = 0;
 };

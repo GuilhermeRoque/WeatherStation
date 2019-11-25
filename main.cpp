@@ -25,3 +25,7 @@ Address    1 | 0 | 1 | 0 | A2 | P1 | P0 | R/W
 int main(int argc, char** argv){
     GPIO EEPROM_1(54, GPIO::OUTPUT);
 }
+
+extern "C" void __cxa_pure_virtual() { while (1); }
+
+

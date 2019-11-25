@@ -606,7 +606,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0x5de
+.text           0x0000000000000000      0x5e4
  *(.vectors)
  .vectors       0x0000000000000000       0xe4 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
                 0x0000000000000000                __vectors
@@ -616,41 +616,41 @@ END GROUP
                 0x00000000000000e4                . = ALIGN (0x2)
                 0x00000000000000e4                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x00000000000000e4        0x8 linker stubs
+ .trampolines   0x00000000000000e4        0xc linker stubs
  *(.trampolines*)
-                0x00000000000000ec                __trampolines_end = .
+                0x00000000000000f0                __trampolines_end = .
  *libprintf_flt.a:*(.progmem.data)
  *libc.a:*(.progmem.data)
  *(.progmem*)
-                0x00000000000000ec                . = ALIGN (0x2)
+                0x00000000000000f0                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000000000000ec                __ctors_start = .
+                0x00000000000000f0                __ctors_start = .
  *(.ctors)
-                0x00000000000000ec                __ctors_end = .
-                0x00000000000000ec                __dtors_start = .
+                0x00000000000000f0                __ctors_end = .
+                0x00000000000000f0                __dtors_start = .
  *(.dtors)
-                0x00000000000000ec                __dtors_end = .
+                0x00000000000000f0                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000000000000ec        0x0 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
-                0x00000000000000ec                __init
+ .init0         0x00000000000000f0        0x0 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x00000000000000f0                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000000000000ec       0x10 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .init2         0x00000000000000f0       0x10 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x00000000000000fc       0x1a /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
-                0x00000000000000fc                __do_copy_data
- .init4         0x0000000000000116       0x10 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
-                0x0000000000000116                __do_clear_bss
+ .init4         0x0000000000000100       0x1a /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_copy_data.o)
+                0x0000000000000100                __do_copy_data
+ .init4         0x000000000000011a       0x10 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_clear_bss.o)
+                0x000000000000011a                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -661,129 +661,132 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000126        0x8 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+ .init9         0x000000000000012a        0x8 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
  *(.init9)
  *(.text)
- .text          0x000000000000012e        0x4 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
-                0x000000000000012e                __vector_38
-                0x000000000000012e                __vector_22
-                0x000000000000012e                __vector_28
-                0x000000000000012e                __vector_1
-                0x000000000000012e                __vector_32
-                0x000000000000012e                __vector_34
-                0x000000000000012e                __vector_24
-                0x000000000000012e                __vector_12
-                0x000000000000012e                __vector_55
-                0x000000000000012e                __vector_46
-                0x000000000000012e                __bad_interrupt
-                0x000000000000012e                __vector_6
-                0x000000000000012e                __vector_31
-                0x000000000000012e                __vector_39
-                0x000000000000012e                __vector_3
-                0x000000000000012e                __vector_30
-                0x000000000000012e                __vector_11
-                0x000000000000012e                __vector_54
-                0x000000000000012e                __vector_13
-                0x000000000000012e                __vector_17
-                0x000000000000012e                __vector_19
-                0x000000000000012e                __vector_56
-                0x000000000000012e                __vector_7
-                0x000000000000012e                __vector_49
-                0x000000000000012e                __vector_41
-                0x000000000000012e                __vector_43
-                0x000000000000012e                __vector_27
-                0x000000000000012e                __vector_5
-                0x000000000000012e                __vector_33
-                0x000000000000012e                __vector_47
-                0x000000000000012e                __vector_52
-                0x000000000000012e                __vector_37
-                0x000000000000012e                __vector_4
-                0x000000000000012e                __vector_44
-                0x000000000000012e                __vector_51
-                0x000000000000012e                __vector_9
-                0x000000000000012e                __vector_2
-                0x000000000000012e                __vector_21
-                0x000000000000012e                __vector_15
-                0x000000000000012e                __vector_36
-                0x000000000000012e                __vector_29
-                0x000000000000012e                __vector_40
-                0x000000000000012e                __vector_8
-                0x000000000000012e                __vector_48
-                0x000000000000012e                __vector_14
-                0x000000000000012e                __vector_53
-                0x000000000000012e                __vector_10
-                0x000000000000012e                __vector_16
-                0x000000000000012e                __vector_18
-                0x000000000000012e                __vector_42
-                0x0000000000000132                . = ALIGN (0x2)
+ .text          0x0000000000000132        0x4 /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/gcc/dev/atmega2560/avr6/crtatmega2560.o
+                0x0000000000000132                __vector_38
+                0x0000000000000132                __vector_22
+                0x0000000000000132                __vector_28
+                0x0000000000000132                __vector_1
+                0x0000000000000132                __vector_32
+                0x0000000000000132                __vector_34
+                0x0000000000000132                __vector_24
+                0x0000000000000132                __vector_12
+                0x0000000000000132                __vector_55
+                0x0000000000000132                __vector_46
+                0x0000000000000132                __bad_interrupt
+                0x0000000000000132                __vector_6
+                0x0000000000000132                __vector_31
+                0x0000000000000132                __vector_39
+                0x0000000000000132                __vector_3
+                0x0000000000000132                __vector_30
+                0x0000000000000132                __vector_11
+                0x0000000000000132                __vector_54
+                0x0000000000000132                __vector_13
+                0x0000000000000132                __vector_17
+                0x0000000000000132                __vector_19
+                0x0000000000000132                __vector_56
+                0x0000000000000132                __vector_7
+                0x0000000000000132                __vector_49
+                0x0000000000000132                __vector_41
+                0x0000000000000132                __vector_43
+                0x0000000000000132                __vector_27
+                0x0000000000000132                __vector_5
+                0x0000000000000132                __vector_33
+                0x0000000000000132                __vector_47
+                0x0000000000000132                __vector_52
+                0x0000000000000132                __vector_37
+                0x0000000000000132                __vector_4
+                0x0000000000000132                __vector_44
+                0x0000000000000132                __vector_51
+                0x0000000000000132                __vector_9
+                0x0000000000000132                __vector_2
+                0x0000000000000132                __vector_21
+                0x0000000000000132                __vector_15
+                0x0000000000000132                __vector_36
+                0x0000000000000132                __vector_29
+                0x0000000000000132                __vector_40
+                0x0000000000000132                __vector_8
+                0x0000000000000132                __vector_48
+                0x0000000000000132                __vector_14
+                0x0000000000000132                __vector_53
+                0x0000000000000132                __vector_10
+                0x0000000000000132                __vector_16
+                0x0000000000000132                __vector_18
+                0x0000000000000132                __vector_42
+                0x0000000000000136                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN4GPIO4readEPch
-                0x0000000000000132        0x2 build/default/production/GPIO.o
-                0x0000000000000132                _ZN4GPIO4readEPch
+                0x0000000000000136        0x2 build/default/production/GPIO.o
+                0x0000000000000136                _ZN4GPIO4readEPch
  .text._ZN4GPIO5writeEPch
-                0x0000000000000134        0x2 build/default/production/GPIO.o
-                0x0000000000000134                _ZN4GPIO5writeEPch
+                0x0000000000000138        0x2 build/default/production/GPIO.o
+                0x0000000000000138                _ZN4GPIO5writeEPch
  .text._ZN4GPIOC2EhNS_15PortDirection_tE
-                0x0000000000000136       0x58 build/default/production/GPIO.o
-                0x0000000000000136                _ZN4GPIOC1EhNS_15PortDirection_tE
-                0x0000000000000136                _ZN4GPIOC2EhNS_15PortDirection_tE
+                0x000000000000013a       0x58 build/default/production/GPIO.o
+                0x000000000000013a                _ZN4GPIOC1EhNS_15PortDirection_tE
+                0x000000000000013a                _ZN4GPIOC2EhNS_15PortDirection_tE
  .text._ZN4GPIOD2Ev
-                0x000000000000018e       0x10 build/default/production/GPIO.o
-                0x000000000000018e                _ZN4GPIOD1Ev
-                0x000000000000018e                _ZN4GPIOD2Ev
+                0x0000000000000192       0x10 build/default/production/GPIO.o
+                0x0000000000000192                _ZN4GPIOD1Ev
+                0x0000000000000192                _ZN4GPIOD2Ev
  .text._ZN9GPIO_PORT9GPIO_Port3dirEhb
-                0x000000000000019e       0x1a build/default/production/GPIO_Port.o
-                0x000000000000019e                _ZN9GPIO_PORT9GPIO_Port3dirEhb
+                0x00000000000001a2       0x1a build/default/production/GPIO_Port.o
+                0x00000000000001a2                _ZN9GPIO_PORT9GPIO_Port3dirEhb
  .text._ZN4UART15rxc_isr_handlerEv
-                0x00000000000001b8       0x40 build/default/production/UART.o
-                0x00000000000001b8                _ZN4UART15rxc_isr_handlerEv
+                0x00000000000001bc       0x40 build/default/production/UART.o
+                0x00000000000001bc                _ZN4UART15rxc_isr_handlerEv
  .text.__vector_25
-                0x00000000000001f8       0x50 build/default/production/UART.o
-                0x00000000000001f8                __vector_25
+                0x00000000000001fc       0x50 build/default/production/UART.o
+                0x00000000000001fc                __vector_25
  .text._ZN4UART16udre_isr_handlerEv
-                0x0000000000000248       0x50 build/default/production/UART.o
-                0x0000000000000248                _ZN4UART16udre_isr_handlerEv
+                0x000000000000024c       0x50 build/default/production/UART.o
+                0x000000000000024c                _ZN4UART16udre_isr_handlerEv
  .text.__vector_26
-                0x0000000000000298       0x50 build/default/production/UART.o
-                0x0000000000000298                __vector_26
+                0x000000000000029c       0x50 build/default/production/UART.o
+                0x000000000000029c                __vector_26
  .text._ZN7Timeout7Timeout12checkTimeoutEv
-                0x00000000000002e8       0x3e build/default/production/Timeout.o
-                0x00000000000002e8                _ZN7Timeout7Timeout12checkTimeoutEv
+                0x00000000000002ec       0x3e build/default/production/Timeout.o
+                0x00000000000002ec                _ZN7Timeout7Timeout12checkTimeoutEv
  .text._ZN5Timer15ovf_isr_handlerEv
-                0x0000000000000326       0xc8 build/default/production/Timer.o
-                0x0000000000000326                _ZN5Timer15ovf_isr_handlerEv
+                0x000000000000032a       0xc8 build/default/production/Timer.o
+                0x000000000000032a                _ZN5Timer15ovf_isr_handlerEv
  .text.__vector_23
-                0x00000000000003ee       0x50 build/default/production/Timer.o
-                0x00000000000003ee                __vector_23
+                0x00000000000003f2       0x50 build/default/production/Timer.o
+                0x00000000000003f2                __vector_23
  .text.__vector_20
-                0x000000000000043e       0x50 build/default/production/Timer.o
-                0x000000000000043e                __vector_20
+                0x0000000000000442       0x50 build/default/production/Timer.o
+                0x0000000000000442                __vector_20
  .text.__vector_35
-                0x000000000000048e       0x50 build/default/production/Timer.o
-                0x000000000000048e                __vector_35
+                0x0000000000000492       0x50 build/default/production/Timer.o
+                0x0000000000000492                __vector_35
  .text.__vector_45
-                0x00000000000004de       0x50 build/default/production/Timer.o
-                0x00000000000004de                __vector_45
+                0x00000000000004e2       0x50 build/default/production/Timer.o
+                0x00000000000004e2                __vector_45
  .text.__vector_50
-                0x000000000000052e       0x50 build/default/production/Timer.o
-                0x000000000000052e                __vector_50
+                0x0000000000000532       0x50 build/default/production/Timer.o
+                0x0000000000000532                __vector_50
  .text._ZN2IOC2Ev
-                0x000000000000057e        0xc build/default/production/IO.o
-                0x000000000000057e                _ZN2IOC1Ev
-                0x000000000000057e                _ZN2IOC2Ev
+                0x0000000000000582        0xc build/default/production/IO.o
+                0x0000000000000582                _ZN2IOC1Ev
+                0x0000000000000582                _ZN2IOC2Ev
  .text._ZN2IOD2Ev
-                0x000000000000058a        0x2 build/default/production/IO.o
-                0x000000000000058a                _ZN2IOD2Ev
-                0x000000000000058a                _ZN2IOD1Ev
- .text.main     0x000000000000058c       0x36 build/default/production/main.o
-                0x000000000000058c                main
- .text.libgcc   0x00000000000005c2       0x18 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
-                0x00000000000005c2                __adddi3_s8
-                0x00000000000005da                . = ALIGN (0x2)
+                0x000000000000058e        0x2 build/default/production/IO.o
+                0x000000000000058e                _ZN2IOD2Ev
+                0x000000000000058e                _ZN2IOD1Ev
+ .text.main     0x0000000000000590       0x36 build/default/production/main.o
+                0x0000000000000590                main
+ .text.__cxa_pure_virtual
+                0x00000000000005c6        0x2 build/default/production/main.o
+                0x00000000000005c6                __cxa_pure_virtual
+ .text.libgcc   0x00000000000005c8       0x18 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_adddi3_s8.o)
+                0x00000000000005c8                __adddi3_s8
+                0x00000000000005e0                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000000000005da        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
-                0x00000000000005da                exit
-                0x00000000000005da                _exit
+ .fini9         0x00000000000005e0        0x0 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+                0x00000000000005e0                exit
+                0x00000000000005e0                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -802,11 +805,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000000000005da        0x4 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x00000000000005e0        0x4 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/bin/../lib/gcc/avr/5.4.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x00000000000005de                _etext = .
+                0x00000000000005e4                _etext = .
 
-.data           0x0000000000800200       0xb2 load address 0x00000000000005de
+.data           0x0000000000800200       0xb2 load address 0x00000000000005e4
                 0x0000000000800200                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -845,8 +848,8 @@ END GROUP
                 0x00000000008002b4                _ZN9SingletonI5TimerE10_singletonE
  *(COMMON)
                 0x00000000008002b6                PROVIDE (__bss_end, .)
-                0x00000000000005de                __data_load_start = LOADADDR (.data)
-                0x0000000000000690                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000000000005e4                __data_load_start = LOADADDR (.data)
+                0x0000000000000696                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00000000008002b6        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
