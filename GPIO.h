@@ -10,7 +10,6 @@
 
 #include <stdint.h>
 #include "GPIO_Port.h"
-#include "IO.h"
 
 class GPIO {
 public:

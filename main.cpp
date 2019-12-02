@@ -29,6 +29,7 @@ LCD display = LCD();
 
 int main(int argc, char** argv) {
     char info;
+    uint16_t single;
     sei(); //Ativa interrupção global
     display.LCD_Init();
     _state = Idle;    
@@ -44,28 +45,32 @@ int main(int argc, char** argv) {
             _state = Conf;
             _delay_ms(1000);  // só para teste
         }
+        
         switch(_state){
             case Idle:
                 uart.puts("Case Idle");
-                uint16_t single = adc.single_read(ADConverter::A0);
-                display.LCD_String("L: ");	/* write string on 1st line of LCD*/
+                single = adc.single_read(ADConverter::A0);
+                display.LCD_String("L: ");	
                 convert(single);
                 _delay_ms(1000);
-                break;
+                break;            
+            
                 
             case Conf:
                 uart.puts("Case Conf");
                 break;
+            
                 
             case Get:
                 uart.puts("Case Get");
                 break;
+            
                 
-            case Synck:
+            case Synck:                
                 uart.puts("Case Synck");
                 break;
+               
         }
-
     }
     return 0;
 }
