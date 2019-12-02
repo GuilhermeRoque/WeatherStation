@@ -8,6 +8,7 @@
 #include "UART.h"
 #include "LCD.h"
 #include "ADConverter.h"
+#include "Timer.h"
 
 void tx_serial(uint16_t v);
 void convert(uint16_t v);
@@ -27,12 +28,19 @@ ADConverter adc = ADConverter(ADConverter::AVCC);
 //Iniciando o Display
 LCD display = LCD();
 
+Timer timer = Timer(1000);
+
+
+void handle_fsm(){
+}
+
 int main(int argc, char** argv) {
     char info;
     uint16_t single;
     sei(); //Ativa interrupção global
     display.LCD_Init();
-    _state = Idle; 
+    _state = Idle;
+	timer.addTimeout(2000, &handle_fsm);
     while(1){
         display.LCD_Clear();
         if(uart.has_data()){
