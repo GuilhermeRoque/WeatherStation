@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/WeatherStation.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=WeatherStation.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=weatherstation.x/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/WeatherStation.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=WeatherStation.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=weatherstation/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/weatherstation.x/bin
+makeDirectory ${TMPDIR}/weatherstation/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/weatherstation.x.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/weatherstation.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/weatherstation.x.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/weatherstation.tar *
 checkReturnCode
 
 # Cleanup

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=WeatherStation.X
+PROJECTNAME=WeatherStation
 
 # Active Configuration
 DEFAULTCONF=default

@@ -7,13 +7,16 @@
       <itemPath>TWIMaster.h</itemPath>
       <itemPath>GPIO.h</itemPath>
       <itemPath>GPIO_Port.h</itemPath>
-      <itemPath>UART.h</itemPath>
       <itemPath>Singleton.h</itemPath>
       <itemPath>Queue.h</itemPath>
       <itemPath>Timer.h</itemPath>
       <itemPath>Timeout.h</itemPath>
       <itemPath>Peripheral.h</itemPath>
       <itemPath>IO.h</itemPath>
+      <itemPath>LCD.h</itemPath>
+      <itemPath>fila.h</itemPath>
+      <itemPath>ADConverter.h</itemPath>
+      <itemPath>UART.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -25,11 +28,13 @@
       <itemPath>TWIMaster.cpp</itemPath>
       <itemPath>GPIO.cpp</itemPath>
       <itemPath>GPIO_Port.cpp</itemPath>
-      <itemPath>UART.cpp</itemPath>
       <itemPath>Timeout.cpp</itemPath>
       <itemPath>Timer.cpp</itemPath>
       <itemPath>Peripheral.cpp</itemPath>
       <itemPath>IO.cpp</itemPath>
+      <itemPath>LCD.cpp</itemPath>
+      <itemPath>ADConverter.cpp</itemPath>
+      <itemPath>UART.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"

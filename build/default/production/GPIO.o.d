@@ -6,7 +6,7 @@ build/default/production/GPIO.o.d build/default/production/GPIO.o: \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/inttypes.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdint.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h \
- /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h \
+ /opt/microchip/mplabx/v5.25/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/common.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/version.h \
@@ -27,7 +27,7 @@ build/default/production/GPIO.o.d build/default/production/GPIO.o: \
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h:
 
-/opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h:
+/opt/microchip/mplabx/v5.25/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h:
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h:
 

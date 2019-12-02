@@ -5,7 +5,7 @@ build/default/production/main.o.d build/default/production/main.o: \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/inttypes.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdint.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h \
- /opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h \
+ /opt/microchip/mplabx/v5.25/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/common.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/version.h \
@@ -15,15 +15,9 @@ build/default/production/main.o.d build/default/production/main.o: \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/util/delay_basic.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/math.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/interrupt.h \
- TWIMaster.h \
- /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/util/twi.h \
- UART.h Singleton.h Queue.h \
- /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdio.h \
- /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdarg.h \
- /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h \
  /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h \
- /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/string.h \
- GPIO.h GPIO_Port.h IO.h
+ /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h \
+ UART.h fila.h LCD.h ADConverter.h
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/io.h:
 
@@ -35,7 +29,7 @@ build/default/production/main.o.d build/default/production/main.o: \
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdint.h:
 
-/opt/microchip/mplabx/v5.20/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h:
+/opt/microchip/mplabx/v5.25/packs/Microchip/ATmega_DFP/2.0.12/include/avr/iom2560.h:
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/portpins.h:
 
@@ -55,28 +49,14 @@ build/default/production/main.o.d build/default/production/main.o: \
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/interrupt.h:
 
-TWIMaster.h:
-
-/opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/util/twi.h:
-
-UART.h:
-
-Singleton.h:
-
-Queue.h:
-
-/opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdio.h:
-
-/opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stdarg.h:
+/opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h:
 
 /opt/microchip/avr8-gnu-toolchain-linux_x86_64/lib/gcc/avr/5.4.0/include/stddef.h:
 
-/opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/stdlib.h:
+UART.h:
 
-/opt/microchip/avr8-gnu-toolchain-linux_x86_64/avr/include/string.h:
+fila.h:
 
-GPIO.h:
+LCD.h:
 
-GPIO_Port.h:
-
-IO.h:
+ADConverter.h:

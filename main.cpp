@@ -1,31 +1,50 @@
-/* 
- * File:   main.cpp
- * Author: marcone
- *
- * Created on 24 de Outubro de 2019, 20:38
- */
-#define F_CPU 16000000UL                            /* Define CPU clock Frequency e.g. here its 16MHz */
-#include <avr/io.h>                                 
-#include <util/delay.h>                             
+#define F_CPU 16000000UL
+
+#include <avr/io.h> 
+#include <util/delay.h>
 #include <avr/interrupt.h>
-#include "TWIMaster.h"
+#include <stdlib.h>
+
 #include "UART.h"
-#include "GPIO.h"
+#include "LCD.h"
+#include "ADConverter.h"
 
-/*          AT24C08A - 8k EEPROM 
-Address    1 | 0 | 1 | 0 | A2 | P1 | P0 | R/W
- */
+void tx_serial(uint16_t v);
+void convert(uint16_t v);
+int total = 0;
 
-/*7bit address (R/W will be manage by master functions)*/
-#define EEPROM_1_Address      0xA0            /* 10100000 = 0xA0*/
-#define EEPROM_2_Address      0xA8            /* 10101000 = 0xA8*/
-#define SLAVE_Address         0xB0            /* 10110000 = 0xB0*/
+UART uart(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
 
-    
-int main(int argc, char** argv){
-    GPIO EEPROM_1(54, GPIO::OUTPUT);
+ADConverter adc = ADConverter(ADConverter::AVCC);
+
+LCD display = LCD();
+
+int main(int argc, char** argv) {
+
+    sei(); //Ativa interrupção global
+    display.LCD_Init();
+    while(1){
+        display.LCD_Clear();
+        uart.puts("Bloqueante");
+        _delay_ms(100);
+        uint16_t single = adc.single_read(ADConverter::A0);
+        display.LCD_String("L: ");	/* write string on 1st line of LCD*/
+        convert(single);
+        _delay_ms(1000);
+    }
+    return 0;
 }
 
-extern "C" void __cxa_pure_virtual() { while (1); }
+void convert(uint16_t v) {
+    char value[sizeof (uint16_t)];
+    ltoa(v, value, 10);
+    uart.puts(value);
+    display.LCD_String(value);
+}
 
 
+void tx_serial(uint16_t v) {
+    char value[sizeof (uint16_t)];
+    ltoa(v, value, 10);
+    uart.puts(value);
+}
