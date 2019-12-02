@@ -20,11 +20,20 @@ ADConverter adc = ADConverter(ADConverter::AVCC);
 LCD display = LCD();
 
 int main(int argc, char** argv) {
-
+    char info;
     sei(); //Ativa interrupção global
     display.LCD_Init();
     while(1){
         display.LCD_Clear();
+        if(uart.has_data()){
+            info = uart.get();
+            uart.put(info);
+            display.LCD_Clear();
+            display.LCD_String("Valor digitado: ");
+            display.LCD_Command(0xC0);		/* Go to 2nd line*/
+            display.LCD_Char(info);   
+            _delay_ms(5000);
+        }
         uart.puts("Bloqueante");
         _delay_ms(100);
         uint16_t single = adc.single_read(ADConverter::A0);
