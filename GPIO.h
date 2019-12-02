@@ -12,7 +12,7 @@
 #include "GPIO_Port.h"
 #include "IO.h"
 
-class GPIO: public IO {
+class GPIO {
 public:
     enum PortDirection_t{
         INPUT = 0,

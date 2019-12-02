@@ -11,18 +11,27 @@
 
 void tx_serial(uint16_t v);
 void convert(uint16_t v);
-int total = 0;
 
+enum States {Idle,
+             Conf, 
+             Get, 
+             Synck
+};
+
+int _state;
+
+//Iniciando a serial
 UART uart(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
-
+//Iniciando o conversor ADC
 ADConverter adc = ADConverter(ADConverter::AVCC);
-
+//Iniciando o Display
 LCD display = LCD();
 
 int main(int argc, char** argv) {
     char info;
     sei(); //Ativa interrupção global
     display.LCD_Init();
+    _state = Idle;    
     while(1){
         display.LCD_Clear();
         if(uart.has_data()){
@@ -32,14 +41,31 @@ int main(int argc, char** argv) {
             display.LCD_String("Valor digitado: ");
             display.LCD_Command(0xC0);		/* Go to 2nd line*/
             display.LCD_Char(info);   
-            _delay_ms(5000);
+            _state = Conf;
+            _delay_ms(1000);  // só para teste
         }
-        uart.puts("Bloqueante");
-        _delay_ms(100);
-        uint16_t single = adc.single_read(ADConverter::A0);
-        display.LCD_String("L: ");	/* write string on 1st line of LCD*/
-        convert(single);
-        _delay_ms(1000);
+        switch(_state){
+            case Idle:
+                uart.puts("Case Idle");
+                uint16_t single = adc.single_read(ADConverter::A0);
+                display.LCD_String("L: ");	/* write string on 1st line of LCD*/
+                convert(single);
+                _delay_ms(1000);
+                break;
+                
+            case Conf:
+                uart.puts("Case Conf");
+                break;
+                
+            case Get:
+                uart.puts("Case Get");
+                break;
+                
+            case Synck:
+                uart.puts("Case Synck");
+                break;
+        }
+
     }
     return 0;
 }

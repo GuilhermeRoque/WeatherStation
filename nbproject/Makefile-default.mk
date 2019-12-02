@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp IO.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp
+SOURCEFILES_QUOTED_IF_SPACED=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/IO.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/TWIMaster.o.d ${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/Peripheral.o.d ${OBJECTDIR}/IO.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/TWIMaster.o.d ${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/Peripheral.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/IO.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o
+OBJECTFILES=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o
 
 # Source Files
-SOURCEFILES=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp IO.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp
+SOURCEFILES=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp
 
 # Pack Options 
 PACK_COMPILER_OPTIONS=-I ${DFP_DIR}/include
@@ -170,12 +170,6 @@ ${OBJECTDIR}/Peripheral.o: Peripheral.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/Peripheral.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Peripheral.o.d" -MT "${OBJECTDIR}/Peripheral.o.d" -MT ${OBJECTDIR}/Peripheral.o  -o ${OBJECTDIR}/Peripheral.o Peripheral.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-${OBJECTDIR}/IO.o: IO.cpp  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/IO.o.d 
-	@${RM} ${OBJECTDIR}/IO.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/IO.o.d" -MT "${OBJECTDIR}/IO.o.d" -MT ${OBJECTDIR}/IO.o  -o ${OBJECTDIR}/IO.o IO.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
 ${OBJECTDIR}/LCD.o: LCD.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/LCD.o.d 
@@ -236,12 +230,6 @@ ${OBJECTDIR}/Peripheral.o: Peripheral.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/Peripheral.o.d 
 	@${RM} ${OBJECTDIR}/Peripheral.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Peripheral.o.d" -MT "${OBJECTDIR}/Peripheral.o.d" -MT ${OBJECTDIR}/Peripheral.o  -o ${OBJECTDIR}/Peripheral.o Peripheral.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
-${OBJECTDIR}/IO.o: IO.cpp  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/IO.o.d 
-	@${RM} ${OBJECTDIR}/IO.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/IO.o.d" -MT "${OBJECTDIR}/IO.o.d" -MT ${OBJECTDIR}/IO.o  -o ${OBJECTDIR}/IO.o IO.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 ${OBJECTDIR}/LCD.o: LCD.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
