@@ -32,18 +32,37 @@ int main(int argc, char** argv) {
     uint16_t single;
     sei(); //Ativa interrupção global
     display.LCD_Init();
-    _state = Idle;    
+    _state = Idle; 
     while(1){
         display.LCD_Clear();
         if(uart.has_data()){
             info = uart.get();
             uart.put(info);
-            display.LCD_Clear();
-            display.LCD_String("Valor digitado: ");
-            display.LCD_Command(0xC0);		/* Go to 2nd line*/
-            display.LCD_Char(info);   
-            _state = Conf;
-            _delay_ms(1000);  // só para teste
+            if (info == '1'){
+                display.LCD_Clear();
+                display.LCD_String("Valor digitado: ");
+                display.LCD_Char(info);   
+                _state = Conf;
+            }
+            if (info == '2'){
+                display.LCD_Clear();
+                display.LCD_String("Valor digitado: ");
+                display.LCD_Char(info);   
+                _state = Get;
+            }
+            if (info == '3'){
+                display.LCD_Clear();
+                display.LCD_String("Valor digitado: ");
+                display.LCD_Char(info);   
+                _state = Synck;
+            }
+            else{
+                display.LCD_String("     Valor  ");
+                display.LCD_Command(0xC0);		/* Go to 2nd line*/
+                display.LCD_String("   Inválido!  ");
+                _delay_ms(2000);  // só para teste
+                display.LCD_Clear();
+            }
         }
         
         switch(_state){
@@ -58,18 +77,23 @@ int main(int argc, char** argv) {
                 
             case Conf:
                 uart.puts("Case Conf");
+                _delay_ms(2000);
+                _state = Idle;
                 break;
             
                 
             case Get:
                 uart.puts("Case Get");
+                _delay_ms(2000);
+                _state = Idle;
                 break;
             
                 
             case Synck:                
                 uart.puts("Case Synck");
+                _delay_ms(2000);
+                _state = Idle;
                 break;
-               
         }
     }
     return 0;
