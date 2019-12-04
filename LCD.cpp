@@ -4,6 +4,7 @@
  * 
  * Created on 27 de Novembro de 2019, 09:47
  */
+#define F_CPU 16000000UL
 
 #include "LCD.h";
 #include <avr/io.h>

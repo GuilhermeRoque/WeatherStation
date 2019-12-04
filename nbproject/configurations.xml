@@ -15,6 +15,8 @@
       <itemPath>fila.h</itemPath>
       <itemPath>ADConverter.h</itemPath>
       <itemPath>UART.h</itemPath>
+      <itemPath>DHT11.h</itemPath>
+      <itemPath>BMP280.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -33,6 +35,8 @@
       <itemPath>ADConverter.cpp</itemPath>
       <itemPath>UART.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>DHT11.cpp</itemPath>
+      <itemPath>BMP280.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -74,7 +78,7 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeCustomizationPreStep></makeCustomizationPreStep>
-        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep>avrdude -c avrispmkII -P /dev/ttyACM0 -D -p ${Device} -U flash:w:${ImagePath}:i</makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
@@ -180,6 +184,8 @@
         <property key="sram-segment" value=""/>
         <property key="v-printf" value="false"/>
       </AVR-LD>
+      <item path="DHT11.h" ex="true" overriding="false">
+      </item>
     </conf>
   </confs>
 </configurationDescriptor>
