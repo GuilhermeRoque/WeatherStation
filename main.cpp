@@ -38,8 +38,6 @@ UART uart(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
 ADConverter adc = ADConverter(ADConverter::AVCC);
 //Iniciando o Display
 LCD display = LCD();
-//Iniciando sensor de umidade
-DHT11 dht = DHT11();
 //Iniciando sensor de temperatura e pressão
 BMP280 bmp = BMP280();
 
@@ -47,6 +45,8 @@ BMP280 bmp = BMP280();
 Timer timer = Timer(1000);
 char info, intervalo;
 uint16_t single;
+uint8_t temperature = 0;
+uint8_t humidity = 0;
 
 void event_Read();
 void event_Command();
@@ -74,14 +74,16 @@ void handle_fsm(int event){
                 convert(single);
                 display.LCD_String("%");
                 display.LCD_String("  H: ");
-                single = dht.read();
-                convert8(single);
+                if(dht_gethumidity(&humidity) != -1){
+                    convert8(humidity);
+                }
+                display.LCD_String("%");
                 display.LCD_Command(0xC0);		/* Go to 2nd line*/
                 display.LCD_String(" T: ");	
                 convert8(bmp.readTemp());
                 display.LCD_String("  P: ");	
                 convert8(bmp.readPress());
-                _delay_ms(2000); // retirar, para deixar pelo timer                
+                //_delay_ms(2000); // retirar, para deixar pelo timer                
                 _state = Idle;
             }
             else if(event == Command){
@@ -165,7 +167,6 @@ void handle_fsm(int event){
             _state = Idle;
             break;
     }
-    uart.put('S');
 };
 
 void event_Read(){
@@ -178,6 +179,9 @@ void event_Command(){
 int main(int argc, char** argv) {
     sei(); //Ativa interrupção global
     display.LCD_Init();
+    display.LCD_String("  Reading.....");
+    display.LCD_Command(0xC0);		/* Go to 2nd line*/
+    display.LCD_String("     ......");
     _state = Idle;
 	timer.addTimeout(5000, &event_Read);
 	timer.addTimeout(1000, &event_Command);

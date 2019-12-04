@@ -8,25 +8,22 @@
 #ifndef DHT11_H
 #define	DHT11_H
 
+#include <stdio.h>
 #include <avr/io.h>
 
-class DHT11 {
-public:
-    DHT11(); // colocar o pino de uso
-    ~DHT11();
-    uint8_t read();
-private:
-    static uint8_t I_RH;
-    static uint8_t D_RH;
-    static uint8_t I_Temp;
-    static uint8_t D_Temp;
-    static uint8_t CheckSum;
-    void Request();
-    void Response();
-    uint8_t Receive_data();
-    
+//setup port
+#define DHT_DDR DDRE
+#define DHT_PORT PORTE
+#define DHT_PIN PINE
+#define DHT_INPUTPIN PE4
 
-};
+//timeout retries
+#define DHT_TIMEOUT 200
+
+//functions
+extern uint8_t dht_gettemperature(uint8_t *temperature);
+extern uint8_t dht_gethumidity(uint8_t *humidity);
+extern uint8_t dht_gettemperaturehumidity(uint8_t *temperature, uint8_t *humidity);
 
 #endif	/* DHT11_H */
 
