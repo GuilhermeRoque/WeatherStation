@@ -44,6 +44,7 @@ public:
 	void udelay(Microseconds us);
 	void timeoutManager();
 	bool addTimeout(uint32_t interval, Timeout::CALLBACK_t callback);
+    bool setTimeout(uint32_t interval, Timeout::CALLBACK_t callback,uint8_t pos);
 
 	static void ovf_isr_handler();
 

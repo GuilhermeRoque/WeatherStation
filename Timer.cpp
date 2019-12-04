@@ -169,6 +169,14 @@ bool Timer::addTimeout(uint32_t interval, CALLBACK_t callback)
 	return 1;
 }
 
+bool Timer::setTimeout(uint32_t interval, CALLBACK_t callback,uint8_t pos)
+{
+
+	_timeouts[pos].config(interval, callback);
+	return 1;
+}
+
+
 void Timer::timeoutManager() {
 	for(uint32_t i=0;i<_timeout_counter;i++) {
 		if (_timeouts[i].event())
