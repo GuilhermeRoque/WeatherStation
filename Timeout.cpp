@@ -19,10 +19,15 @@ Timeout::~Timeout() {
 	// TODO Auto-generated destructor stub
 }
 
-void Timeout::config(uint32_t interval, CALLBACK_t callback)
+void Timeout::config(uint32_t interval, CALLBACK_t callback, void *p)
 {
 	_enable = true;
 	_callback = callback;
+    _obj = p;
+	_interval = interval;
+}
+
+void Timeout::setInterval(uint32_t interval){
 	_interval = interval;
 }
 
@@ -40,8 +45,8 @@ void Timeout::checkTimeout()
 
 void Timeout::callback()
 {
-	if (_event and _enable) {
-		(*_callback)();
+    if (_event and _enable) {
+        _callback(_obj);
 		_event = false;
 	}
 }
