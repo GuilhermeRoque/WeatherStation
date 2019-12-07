@@ -49,10 +49,8 @@ class Machine {
 
     private:
 
-        void tx_serial(uint16_t v);
-        void tx_serial8(uint8_t v);
-        void convert(uint16_t v);
-        void convert8(uint8_t v);
+        void record16(uint16_t v);
+        void record8(uint8_t v);
 
         ADConverter adc = ADConverter(ADConverter::AVCC);
         LCD display = LCD();

@@ -26,29 +26,18 @@ void Machine::event_Read(void *p){
     ((Machine *)p) -> handle_fsm(Read);
 }
 
-void Machine::convert(uint16_t v) {
+void Machine::record16(uint16_t v) {
     char value[sizeof (uint16_t)];
     ltoa(v, value, 10);
     display.LCD_String(value);
     uart.puts(value);
 }
 
-void Machine::convert8(uint8_t v) {
+void Machine::record8(uint8_t v) {
     char value[sizeof (uint8_t)];
     ltoa(v, value, 10);
     uart.puts(value);
     display.LCD_String(value);
-}
-
-void Machine::tx_serial(uint16_t v) {
-    char value[sizeof (uint16_t)];
-    ltoa(v, value, 10);
-    uart.puts(value);
-}
-void Machine::tx_serial8(uint8_t v) {
-    char value[sizeof (uint8_t)];
-    ltoa(v, value, 10);
-    uart.puts(value);
 }
 
 void Machine::handle_fsm(int event){    
@@ -66,23 +55,34 @@ void Machine::handle_fsm(int event){
         case Idle:
             display.LCD_Clear();
             if(event == Read){
+                uint8_t result = 0;
                 uart.puts("\nCase Idle");
                 single = adc.single_read(ADConverter::A0);
                 display.LCD_String(" L: ");
                 single = (single*100/1021);
                 single = 100 - single;                
-                convert(single);
-                if(dht.read(&temperature,&humidity) != -1){
-                    display.LCD_String("%");
-                    display.LCD_String("  H: ");
-                    convert8(humidity);
-                    display.LCD_String("%");
-                    display.LCD_Command(0xC0);		/* Go to 2nd line*/
-                    display.LCD_String(" T: ");	
-                    convert8(temperature);
-                }
+                record16(single);
+
+                result = dht.read(&temperature,&humidity);
+                display.LCD_String("%");
+                display.LCD_String("  H: ");
+
+                if (result < 0)
+                    record8(0);
+                else
+                    record8(humidity);
+    
+                display.LCD_String("%");
+                display.LCD_Command(0xC0);		/* Go to 2nd line*/
+                display.LCD_String(" T: ");	
+
+                if (result < 0)
+                    record8(0);
+                else
+                    record8(temperature);
+             
                 display.LCD_String("  P: ");	
-                convert8(bmp.readPress());
+                record8(bmp.readPress()); //RAND
                 _state = Idle;
             }
             else if(event == Command){
