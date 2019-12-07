@@ -10,20 +10,18 @@
 
 #include <stdio.h>
 #include <avr/io.h>
+#include "GPIO.h"
 
-//setup port
-#define DHT_DDR DDRE
-#define DHT_PORT PORTE
-#define DHT_PIN PINE
-#define DHT_INPUTPIN PE4
-
-//timeout retries
 #define DHT_TIMEOUT 200
 
-//functions
-extern uint8_t dht_gettemperature(uint8_t *temperature);
-extern uint8_t dht_gethumidity(uint8_t *humidity);
-extern uint8_t dht_gettemperaturehumidity(uint8_t *temperature, uint8_t *humidity);
-
+class DHT11{
+public:
+    DHT11(uint8_t id);
+    ~DHT11();
+    int8_t read(uint8_t *temperature, uint8_t *humidity);
+private:
+    GPIO gpio;
+    
+};
 #endif	/* DHT11_H */
 

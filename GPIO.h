@@ -32,7 +32,7 @@ public:
 	GPIO_PORT::GPIO_Port * _Px;    
     uint8_t _bit;
     uint8_t _id;
-    
+    PortDirection_t _dir;
 };
 
 #endif	/* GPIO_H */

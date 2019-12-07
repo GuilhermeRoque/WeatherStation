@@ -7,12 +7,14 @@
 
 #include "Machine.h"
 
-Machine::Machine(){
+Machine::Machine(DHT11 dht): dht(dht){
     display.LCD_Init();
     display.LCD_String("  Reading.....");
     display.LCD_Command(0xC0);		/* Go to 2nd line*/
     display.LCD_String("     ......");
-    _state = 3;
+	timer.addTimeout(1000,Machine::event_Command,this);
+	timer.addTimeout(5000,Machine::event_Read,this);
+    _state = Idle;
 }
 Machine::~Machine() {}
 
@@ -70,18 +72,17 @@ void Machine::handle_fsm(int event){
                 single = (single*100/1021);
                 single = 100 - single;                
                 convert(single);
-                display.LCD_String("%");
-                display.LCD_String("  H: ");
-                if(dht_gethumidity(&humidity) != -1){
+                if(dht.read(&temperature,&humidity) != -1){
+                    display.LCD_String("%");
+                    display.LCD_String("  H: ");
                     convert8(humidity);
+                    display.LCD_String("%");
+                    display.LCD_Command(0xC0);		/* Go to 2nd line*/
+                    display.LCD_String(" T: ");	
+                    convert8(temperature);
                 }
-                display.LCD_String("%");
-                display.LCD_Command(0xC0);		/* Go to 2nd line*/
-                display.LCD_String(" T: ");	
-                convert8(bmp.readTemp());
                 display.LCD_String("  P: ");	
                 convert8(bmp.readPress());
-                //_delay_ms(2000); // retirar, para deixar pelo timer                
                 _state = Idle;
             }
             else if(event == Command){

@@ -19,6 +19,8 @@
 #include "ADConverter.h"
 #include "DHT11.h"
 #include "BMP280.h"
+#include "Timer.h"
+
 
 enum States {
     Idle,
@@ -35,7 +37,7 @@ enum Event {
 
 class Machine {
     public:
-        Machine();
+        Machine(DHT11 dht);
         ~Machine();
         void handle_fsm(int event);    
 
@@ -43,6 +45,7 @@ class Machine {
         static void event_Read(void *p);
         UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
         int _state;
+        Timer timer = Timer(1000);
 
     private:
 
@@ -54,6 +57,7 @@ class Machine {
         ADConverter adc = ADConverter(ADConverter::AVCC);
         LCD display = LCD();
         BMP280 bmp = BMP280();
+        DHT11 dht;
 
         char info, intervalo;
         uint16_t single;
