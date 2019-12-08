@@ -15,7 +15,7 @@ BMP280::~BMP280() {
 }
 
 uint8_t BMP280::readPress(){
-    return rand();  //retornando um valor aleatorio para teste  
+    return (1 + rand() % 2);  //retornando um valor aleatorio para teste  
 }
 
 uint8_t BMP280::readTemp(){
