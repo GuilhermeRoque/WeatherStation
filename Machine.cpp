@@ -62,26 +62,23 @@ void Machine::handle_fsm(int event){
                 single = (single*100/1021);
                 single = 100 - single;                
                 record16(single);
-
-                result = dht.read(&temperature,&humidity);
                 display.LCD_String("%");
-                display.LCD_String("  H: ");
-
-                if (result < 0)
-                    record8(0);
-                else
-                    record8(humidity);
-    
-                display.LCD_String("%");
-                display.LCD_Command(0xC0);		/* Go to 2nd line*/
-                display.LCD_String(" T: ");	
-
-                if (result < 0)
-                    record8(0);
-                else
+                display.LCD_String(" T: ");
+                
+                if(dht.read(&temperature, &humidity) != -1) {
+                    _delay_ms(100);
                     record8(temperature);
-             
-                display.LCD_String("  P: ");	
+                    display.LCD_Char((char)223); // imprime "°"
+                    display.LCD_String("C");
+                    _delay_ms(100);
+                    display.LCD_Command(0xC0);		/* Go to 2nd line*/
+                    display.LCD_String(" H: ");
+                    record8(humidity);
+                    _delay_ms(100);
+                }
+                
+                display.LCD_String("%");
+                display.LCD_String(" P: ");	
                 record8(bmp.readPress()); //RAND
                 _state = Idle;
             }

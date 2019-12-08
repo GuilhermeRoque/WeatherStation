@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp
+SOURCEFILES_QUOTED_IF_SPACED=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/TWIMaster.o.d ${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/Peripheral.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/DHT11.o.d ${OBJECTDIR}/BMP280.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/DHT11.o.d ${OBJECTDIR}/BMP280.o.d ${OBJECTDIR}/Machine.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/TWIMaster.o ${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/Peripheral.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o
+OBJECTFILES=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o
 
 # Source Files
-SOURCEFILES=TWIMaster.cpp GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp Peripheral.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp
+SOURCEFILES=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp
 
 # Pack Options 
 PACK_COMPILER_OPTIONS=-I ${DFP_DIR}/include
@@ -134,12 +134,6 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compileCPP
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/TWIMaster.o: TWIMaster.cpp  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/TWIMaster.o.d 
-	@${RM} ${OBJECTDIR}/TWIMaster.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/TWIMaster.o.d" -MT "${OBJECTDIR}/TWIMaster.o.d" -MT ${OBJECTDIR}/TWIMaster.o  -o ${OBJECTDIR}/TWIMaster.o TWIMaster.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
 ${OBJECTDIR}/GPIO.o: GPIO.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/GPIO.o.d 
@@ -163,12 +157,6 @@ ${OBJECTDIR}/Timer.o: Timer.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/Timer.o.d 
 	@${RM} ${OBJECTDIR}/Timer.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Timer.o.d" -MT "${OBJECTDIR}/Timer.o.d" -MT ${OBJECTDIR}/Timer.o  -o ${OBJECTDIR}/Timer.o Timer.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
-${OBJECTDIR}/Peripheral.o: Peripheral.cpp  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/Peripheral.o.d 
-	@${RM} ${OBJECTDIR}/Peripheral.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Peripheral.o.d" -MT "${OBJECTDIR}/Peripheral.o.d" -MT ${OBJECTDIR}/Peripheral.o  -o ${OBJECTDIR}/Peripheral.o Peripheral.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 ${OBJECTDIR}/LCD.o: LCD.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -206,13 +194,13 @@ ${OBJECTDIR}/BMP280.o: BMP280.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/BMP280.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/BMP280.o.d" -MT "${OBJECTDIR}/BMP280.o.d" -MT ${OBJECTDIR}/BMP280.o  -o ${OBJECTDIR}/BMP280.o BMP280.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
-else
-${OBJECTDIR}/TWIMaster.o: TWIMaster.cpp  nbproject/Makefile-${CND_CONF}.mk
+${OBJECTDIR}/Machine.o: Machine.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/TWIMaster.o.d 
-	@${RM} ${OBJECTDIR}/TWIMaster.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/TWIMaster.o.d" -MT "${OBJECTDIR}/TWIMaster.o.d" -MT ${OBJECTDIR}/TWIMaster.o  -o ${OBJECTDIR}/TWIMaster.o TWIMaster.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	@${RM} ${OBJECTDIR}/Machine.o.d 
+	@${RM} ${OBJECTDIR}/Machine.o 
+	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Machine.o.d" -MT "${OBJECTDIR}/Machine.o.d" -MT ${OBJECTDIR}/Machine.o  -o ${OBJECTDIR}/Machine.o Machine.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
+else
 ${OBJECTDIR}/GPIO.o: GPIO.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/GPIO.o.d 
@@ -236,12 +224,6 @@ ${OBJECTDIR}/Timer.o: Timer.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/Timer.o.d 
 	@${RM} ${OBJECTDIR}/Timer.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Timer.o.d" -MT "${OBJECTDIR}/Timer.o.d" -MT ${OBJECTDIR}/Timer.o  -o ${OBJECTDIR}/Timer.o Timer.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
-	
-${OBJECTDIR}/Peripheral.o: Peripheral.cpp  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/Peripheral.o.d 
-	@${RM} ${OBJECTDIR}/Peripheral.o 
-	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Peripheral.o.d" -MT "${OBJECTDIR}/Peripheral.o.d" -MT ${OBJECTDIR}/Peripheral.o  -o ${OBJECTDIR}/Peripheral.o Peripheral.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 ${OBJECTDIR}/LCD.o: LCD.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -278,6 +260,12 @@ ${OBJECTDIR}/BMP280.o: BMP280.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/BMP280.o.d 
 	@${RM} ${OBJECTDIR}/BMP280.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/BMP280.o.d" -MT "${OBJECTDIR}/BMP280.o.d" -MT ${OBJECTDIR}/BMP280.o  -o ${OBJECTDIR}/BMP280.o BMP280.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	
+${OBJECTDIR}/Machine.o: Machine.cpp  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/Machine.o.d 
+	@${RM} ${OBJECTDIR}/Machine.o 
+	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/Machine.o.d" -MT "${OBJECTDIR}/Machine.o.d" -MT ${OBJECTDIR}/Machine.o  -o ${OBJECTDIR}/Machine.o Machine.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 endif
 

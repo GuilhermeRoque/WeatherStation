@@ -13,6 +13,11 @@
 #include "GPIO.h"
 
 #define DHT_TIMEOUT 200
+#define DHT_DDR DDRE
+#define DHT_PORT PORTE
+#define DHT_PIN PINE
+#define DHT_INPUTPIN PE4
+
 
 class DHT11{
 public:

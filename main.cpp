@@ -4,7 +4,7 @@
 
 int main(int argc, char** argv) {
     sei();
-    DHT11 dht = DHT11(55);
+    DHT11 dht = DHT11(6);
     Machine machine = Machine(dht);
 
     while (true){

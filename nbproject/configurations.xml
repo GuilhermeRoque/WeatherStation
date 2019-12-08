@@ -4,19 +4,18 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>TWIMaster.h</itemPath>
       <itemPath>GPIO.h</itemPath>
       <itemPath>GPIO_Port.h</itemPath>
       <itemPath>Singleton.h</itemPath>
       <itemPath>Timer.h</itemPath>
       <itemPath>Timeout.h</itemPath>
-      <itemPath>Peripheral.h</itemPath>
       <itemPath>LCD.h</itemPath>
       <itemPath>fila.h</itemPath>
       <itemPath>ADConverter.h</itemPath>
       <itemPath>UART.h</itemPath>
       <itemPath>DHT11.h</itemPath>
       <itemPath>BMP280.h</itemPath>
+      <itemPath>Machine.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -25,18 +24,17 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>TWIMaster.cpp</itemPath>
       <itemPath>GPIO.cpp</itemPath>
       <itemPath>GPIO_Port.cpp</itemPath>
       <itemPath>Timeout.cpp</itemPath>
       <itemPath>Timer.cpp</itemPath>
-      <itemPath>Peripheral.cpp</itemPath>
       <itemPath>LCD.cpp</itemPath>
       <itemPath>ADConverter.cpp</itemPath>
       <itemPath>UART.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>DHT11.cpp</itemPath>
       <itemPath>BMP280.cpp</itemPath>
+      <itemPath>Machine.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -184,7 +182,21 @@
         <property key="sram-segment" value=""/>
         <property key="v-printf" value="false"/>
       </AVR-LD>
-      <item path="DHT11.h" ex="true" overriding="false">
+      <item path="DHT11.h" ex="false" overriding="false">
+        <AVR-AR>
+        </AVR-AR>
+        <AVR-AS>
+        </AVR-AS>
+        <AVR-AS-PRE>
+        </AVR-AS-PRE>
+        <AVR-CPP>
+        </AVR-CPP>
+        <AVR-GCC>
+        </AVR-GCC>
+        <AVR-Global>
+        </AVR-Global>
+        <AVR-LD>
+        </AVR-LD>
       </item>
     </conf>
   </confs>

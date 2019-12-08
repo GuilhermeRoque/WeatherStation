@@ -35,3 +35,7 @@ void GPIO::clear() {
 void GPIO::toggle() {
 	_Px->toggle(_bit);
 }
+
+void GPIO::changeDir(){
+    //implementar função ara inverter o input e output
+}
