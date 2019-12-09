@@ -31,5 +31,4 @@ void GPIO::toggle() {
 void GPIO::changeDir(PortDirection_t dir){
     _dir = dir;
     _Px->dir(_bit, dir);  
-    //implementar função ara inverter o input e output
 }

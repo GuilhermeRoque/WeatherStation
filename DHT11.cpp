@@ -16,8 +16,6 @@
 #include "DHT11.h"
 #include "UART.h"
 
-UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
-
 DHT11::DHT11(uint8_t id): gpio(GPIO(id,GPIO::OUTPUT)){}
 
 DHT11::~DHT11() {}
@@ -30,7 +28,7 @@ int8_t DHT11::read(uint8_t *temperature, uint8_t *humidity) {
     gpio.clear();
     _delay_us(40);  
     gpio.set(1);
-	_delay_ms(10);
+	_delay_ms(100);
 	//send request
 	gpio.clear();
     _delay_ms(18);
@@ -39,13 +37,11 @@ int8_t DHT11::read(uint8_t *temperature, uint8_t *humidity) {
 	_delay_us(40);
 	//check start condition 1
 	if(gpio.get()) {
-        uart.puts("gpio.get()");
 		return -1;
 	}
 	_delay_us(80);
 	//check start condition 2
 	if(!gpio.get()) {
-        uart.puts("!gpio.get()");
 		return -1;
 	}
 	_delay_us(80);

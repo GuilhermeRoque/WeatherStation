@@ -13,6 +13,9 @@
 #include "GPIO.h"
 
 #define DHT_TIMEOUT 200
+#define DHT_TEMP 1
+#define DHT_HUMIDITY 1
+
 
 class DHT11{
 public:

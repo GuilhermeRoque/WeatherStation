@@ -29,6 +29,10 @@ void Timeout::config(uint32_t interval, CALLBACK_t callback, void *p)
 
 void Timeout::setInterval(uint32_t interval){
 	_interval = interval;
+    _counter = 0;
+    _enable = true;
+    _event = false;
+    
 }
 
 void Timeout::checkTimeout()
