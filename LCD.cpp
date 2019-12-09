@@ -66,7 +66,6 @@ void LCD::LCD_String (char *str)
 	}
 }
 
-
 void LCD::LCD_Clear()
 {
 	LCD_Command (0x01);		//limpa display

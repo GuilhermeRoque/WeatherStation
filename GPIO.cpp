@@ -13,18 +13,10 @@ GPIO::GPIO(uint8_t id, PortDirection_t dir){
 GPIO::~GPIO() {}
 
 bool GPIO::get() {
-    if (_dir == OUTPUT){
-    	_Px->dir(_bit, INPUT);
-        _dir = INPUT;
-    }
 	return _Px->get(_bit);
 }
 
 void GPIO::set(bool val) {
-    if (_dir == INPUT){
-    	_Px->dir(_bit, OUTPUT);
-        _dir = OUTPUT;
-    }
 	_Px->set(_bit, val);
 }
 
@@ -36,6 +28,8 @@ void GPIO::toggle() {
 	_Px->toggle(_bit);
 }
 
-void GPIO::changeDir(){
+void GPIO::changeDir(PortDirection_t dir){
+    _dir = dir;
+    _Px->dir(_bit, dir);  
     //implementar função ara inverter o input e output
 }

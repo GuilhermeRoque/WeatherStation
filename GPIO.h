@@ -24,7 +24,7 @@ public:
     void set(bool val = 1);
     void clear();
     void toggle();
-    void changeDir();
+    void changeDir(PortDirection_t dir);
  
     void read(char *ptr, uint8_t len){}
     void write(char *ptr, uint8_t len){}
