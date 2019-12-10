@@ -16,6 +16,7 @@
 #include <string.h>
 
 #include "UART.h"
+#include "GPIO.h"
 #include "LCD.h"
 #include "ADConverter.h"
 #include "DHT11.h"
@@ -41,7 +42,7 @@ enum Event {
 
 class Machine {
     public:
-        Machine(DHT11 dht);
+        Machine(DHT11 dht, BMP280 bmp, LCD display, UART uart, ADConverter adc);
         ~Machine();
         void handle_fsm(int event);    
 
@@ -50,7 +51,8 @@ class Machine {
         static void event_Upload(void *p);
         void upload();
         
-        UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
+        //UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
+        //UART uart;
         int _state;
         Timer timer = Timer(1000);
 
@@ -60,18 +62,19 @@ class Machine {
         void record8(uint8_t v);
         void getTime();
 
-        ADConverter adc = ADConverter(ADConverter::AVCC);
-        LCD display = LCD();
-        BMP280 bmp = BMP280();
+        ADConverter adc;// = ADConverter(ADConverter::AVCC);
+        LCD display;// = LCD(49,48,47,9);
+        BMP280 bmp;// = BMP280();
         DHT11 dht;
+        UART uart;
         EEPROM e = EEPROM();
 
         char info, intervalo;
         uint16_t single;
-        uint8_t temperature = 0;
-        uint8_t humidity = 0;
+        uint8_t temperature;
+        uint8_t humidity;
         uint32_t data;
-        uint8_t count =0;
+        uint8_t count;
         Milliseconds begin;
 };
 

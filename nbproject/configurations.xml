@@ -16,6 +16,7 @@
       <itemPath>DHT11.h</itemPath>
       <itemPath>BMP280.h</itemPath>
       <itemPath>Machine.h</itemPath>
+      <itemPath>EEPROM.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -35,6 +36,7 @@
       <itemPath>DHT11.cpp</itemPath>
       <itemPath>BMP280.cpp</itemPath>
       <itemPath>Machine.cpp</itemPath>
+      <itemPath>EEPROM.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

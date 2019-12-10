@@ -4,50 +4,38 @@
  * 
  * Created on 27 de Novembro de 2019, 09:47
  */
-#define F_CPU 16000000UL
-
-#include "LCD.h";
+#include "LCD.h"
 #include <avr/io.h>
 #include <util/delay.h>
 
-#define LCD_Data_Dir DDRK		//Registrador do dos dados do lcd
-#define LCD_Command_Dir DDRL		// registrador dosc comandos do lcd
-#define LCD_Data_Port PORTK		//Port dos dados
-#define LCD_Command_Port PORTL		//Port dos comandos
-#define RS PL0				// Pino de controle RS
-#define RW PL1				// Pino de controle RW
-#define EN PL2				// Pino de controle EN
 
-LCD::LCD(){
-
+LCD::LCD(uint8_t rs,uint8_t rw, uint8_t en, uint8_t port):RS(GPIO(rs,GPIO::OUTPUT)),RW(GPIO(rw,GPIO::OUTPUT)),EN(GPIO(en,GPIO::OUTPUT)){
+  _Px = GPIO_PORT::AllPorts[port];
+  _Px->dir_byte(1);
+    
 }
 
-void LCD::LCD_Command(unsigned char cmnd)
-{
-	LCD_Data_Port= cmnd; //comando em hexa nos pinos de controle
-	LCD_Command_Port &= ~(1<<RS);	//coloca Rs em 0
-	LCD_Command_Port &= ~(1<<RW);	// Rw em 0 para modo escrita
-	LCD_Command_Port |= (1<<EN);	// Enable 1 , para escrever comando.
+void LCD::LCD_Command(unsigned char cmnd){
+    _Px->write_byte(cmnd);
+    RS.clear();
+    RW.clear();
+    EN.set(1);
 	_delay_us(1);
-	LCD_Command_Port &= ~(1<<EN);
+    EN.clear();
 	_delay_ms(3);
 }
 
-void LCD::LCD_Char (unsigned char char_data)
-{
-	LCD_Data_Port= char_data;
-	LCD_Command_Port |= (1<<RS);
-	LCD_Command_Port &= ~(1<<RW);
-	LCD_Command_Port |= (1<<EN);
+void LCD::LCD_Char (unsigned char char_data){
+    _Px->write_byte(char_data);
+    RS.set(1);
+    RW.clear();
+    EN.set(1);
 	_delay_us(1);
-	LCD_Command_Port &= ~(1<<EN);
+    EN.clear();
 	_delay_ms(1);
 }
 
-void LCD::LCD_Init (void)
-{
-	LCD_Command_Dir = 0xFF;		//define como saida 11111111 pinos de controle
-	LCD_Data_Dir = 0xFF;		// pinos de dados como saida
+void LCD::LCD_Init (void){
 	_delay_ms(20);			//aguarda inicio do lcd (15ms minimos)
 
 	LCD_Command (0x38);		// comando para lcd funcionar em 16x2 e 8bits de dados
@@ -57,8 +45,7 @@ void LCD::LCD_Init (void)
 	LCD_Command (0x80);		// cursor no inicio
 }
 
-void LCD::LCD_String (char *str)
-{
+void LCD::LCD_String (char *str){
 	int i;
 	for(i=0;str[i]!=0;i++)
 	{
@@ -66,8 +53,8 @@ void LCD::LCD_String (char *str)
 	}
 }
 
-void LCD::LCD_Clear()
-{
+
+void LCD::LCD_Clear(){
 	LCD_Command (0x01);		//limpa display
 	LCD_Command (0x80);		// cursor no inicio
     _delay_ms(100);

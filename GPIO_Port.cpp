@@ -216,5 +216,16 @@ void GPIO_Port::toggle(uint8_t p) {
 	pin = p;
 }
 
+void GPIO_Port::dir_byte(bool io){
+    if (io)
+        ddr |= 255;
+    else
+        ddr &= ~255;
+}    
+
+void GPIO_Port::write_byte(uint8_t byte){
+    port = byte;
+}
+
 
 } /* namespace GPIO_PORT */

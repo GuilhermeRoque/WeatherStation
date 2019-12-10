@@ -8,10 +8,12 @@
 #ifndef LCD_H_
 #define LCD_H_
 
+#include "GPIO.h"
+
 class LCD {
 public:
 
-	LCD();
+	LCD(uint8_t rs,uint8_t rw, uint8_t en, uint8_t port);
 	void LCD_Command(unsigned char cmnd);
 	void LCD_Char (unsigned char char_data);
 	void LCD_Init (void);
@@ -19,7 +21,8 @@ public:
 	void LCD_Clear();
 
 private:
-
+    GPIO RS, RW, EN;
+    GPIO_PORT::GPIO_Port * _Px;
 };
 
 #endif /* LCD_H_ */

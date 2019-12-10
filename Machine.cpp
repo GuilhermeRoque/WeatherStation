@@ -8,8 +8,11 @@
 #include "Machine.h"
 #include "EEPROM.h"
 
-Machine::Machine(DHT11 dht): dht(dht){
+
+Machine::Machine(DHT11 dht, BMP280 bmp, LCD display, UART uart, ADConverter adc): dht(dht), bmp(bmp), display(display), uart(uart), adc(adc){
+//Machine::Machine(DHT11 dht, BMP280 bmp, LCD display): dht(dht), bmp(bmp), display(display){
     display.LCD_Init();
+    _delay_ms(10);
     display.LCD_String("  Reading.....");
     display.LCD_Command(0xC0);
     display.LCD_String("     ......");
@@ -25,7 +28,6 @@ Machine::~Machine() {}
 
 void Machine::event_Command(void *p){   
     ((Machine *)p) -> handle_fsm(Command);    
-
 }
 
 void Machine::event_Read(void *p){
@@ -86,9 +88,10 @@ void Machine::handle_fsm(int event){
                 
                 //read LDR
                 single = adc.single_read(ADConverter::A0);
+                _delay_ms(50);
                 display.LCD_String(" L: ");
-                single = (single*100/1021);
-                single = 100 - single;                
+                single = (single*100/1023);
+                //single = 100 - single;                
                 record16(single);
                 display.LCD_String("%");
 
@@ -117,7 +120,7 @@ void Machine::handle_fsm(int event){
                 display.LCD_String(" P: ");	
                 record8(bmp.readPress()); //RAND
                 display.LCD_String("atm");	
-                
+                   
                 count++;
                 if(count == 10){
                     upload();
@@ -149,7 +152,7 @@ void Machine::handle_fsm(int event){
                 else{
                     display.LCD_String("     Comando  ");
                     display.LCD_Command(0xC0);		/* Go to 2nd line*/
-                    display.LCD_String("   Inválido!  ");
+                    display.LCD_String("    Inválido!  ");
                     _delay_ms(2000);  // só para teste
                     display.LCD_Clear();
                 }
