@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp EEPROM.cpp
+SOURCEFILES_QUOTED_IF_SPACED=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp EEPROM.cpp LDR.cpp
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o ${OBJECTDIR}/EEPROM.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/DHT11.o.d ${OBJECTDIR}/BMP280.o.d ${OBJECTDIR}/Machine.o.d ${OBJECTDIR}/EEPROM.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o ${OBJECTDIR}/EEPROM.o ${OBJECTDIR}/LDR.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/GPIO.o.d ${OBJECTDIR}/GPIO_Port.o.d ${OBJECTDIR}/Timeout.o.d ${OBJECTDIR}/Timer.o.d ${OBJECTDIR}/LCD.o.d ${OBJECTDIR}/ADConverter.o.d ${OBJECTDIR}/UART.o.d ${OBJECTDIR}/main.o.d ${OBJECTDIR}/DHT11.o.d ${OBJECTDIR}/BMP280.o.d ${OBJECTDIR}/Machine.o.d ${OBJECTDIR}/EEPROM.o.d ${OBJECTDIR}/LDR.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o ${OBJECTDIR}/EEPROM.o
+OBJECTFILES=${OBJECTDIR}/GPIO.o ${OBJECTDIR}/GPIO_Port.o ${OBJECTDIR}/Timeout.o ${OBJECTDIR}/Timer.o ${OBJECTDIR}/LCD.o ${OBJECTDIR}/ADConverter.o ${OBJECTDIR}/UART.o ${OBJECTDIR}/main.o ${OBJECTDIR}/DHT11.o ${OBJECTDIR}/BMP280.o ${OBJECTDIR}/Machine.o ${OBJECTDIR}/EEPROM.o ${OBJECTDIR}/LDR.o
 
 # Source Files
-SOURCEFILES=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp EEPROM.cpp
+SOURCEFILES=GPIO.cpp GPIO_Port.cpp Timeout.cpp Timer.cpp LCD.cpp ADConverter.cpp UART.cpp main.cpp DHT11.cpp BMP280.cpp Machine.cpp EEPROM.cpp LDR.cpp
 
 # Pack Options 
 PACK_COMPILER_OPTIONS=-I ${DFP_DIR}/include
@@ -206,6 +206,12 @@ ${OBJECTDIR}/EEPROM.o: EEPROM.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/EEPROM.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/EEPROM.o.d" -MT "${OBJECTDIR}/EEPROM.o.d" -MT ${OBJECTDIR}/EEPROM.o  -o ${OBJECTDIR}/EEPROM.o EEPROM.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
+${OBJECTDIR}/LDR.o: LDR.cpp  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/LDR.o.d 
+	@${RM} ${OBJECTDIR}/LDR.o 
+	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS} -g -DDEBUG  -gdwarf-2  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/LDR.o.d" -MT "${OBJECTDIR}/LDR.o.d" -MT ${OBJECTDIR}/LDR.o  -o ${OBJECTDIR}/LDR.o LDR.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	
 else
 ${OBJECTDIR}/GPIO.o: GPIO.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} "${OBJECTDIR}" 
@@ -278,6 +284,12 @@ ${OBJECTDIR}/EEPROM.o: EEPROM.cpp  nbproject/Makefile-${CND_CONF}.mk
 	@${RM} ${OBJECTDIR}/EEPROM.o.d 
 	@${RM} ${OBJECTDIR}/EEPROM.o 
 	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/EEPROM.o.d" -MT "${OBJECTDIR}/EEPROM.o.d" -MT ${OBJECTDIR}/EEPROM.o  -o ${OBJECTDIR}/EEPROM.o EEPROM.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
+	
+${OBJECTDIR}/LDR.o: LDR.cpp  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} "${OBJECTDIR}" 
+	@${RM} ${OBJECTDIR}/LDR.o.d 
+	@${RM} ${OBJECTDIR}/LDR.o 
+	 ${MP_CPPC} $(MP_EXTRA_CC_PRE) -mmcu=atmega2560 ${PACK_COMPILER_OPTIONS} ${PACK_COMMON_OPTIONS}  -x c++ -c -D__$(MP_PROCESSOR_OPTION)__  -funsigned-char -funsigned-bitfields -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -Wall -MD -MP -MF "${OBJECTDIR}/LDR.o.d" -MT "${OBJECTDIR}/LDR.o.d" -MT ${OBJECTDIR}/LDR.o  -o ${OBJECTDIR}/LDR.o LDR.cpp  -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD) 
 	
 endif
 

@@ -11,6 +11,7 @@ Machine::Machine(DHT11 *dht,LCD *display,BMP280 *bmp,EEPROM *e,LDR *ldr, Timer *
 : dht(dht),display(display),bmp(bmp),e(e),ldr(ldr),timer(timer),uart(uart)
 {
     display->LCD_Init();
+    _delay_ms(100);
     display->LCD_String("  Reading....");
     display->LCD_Command(0xC0);
     display->LCD_String("     ....");
@@ -56,8 +57,8 @@ void Machine::readLightness(){
     ldr->read(&lightnes);
     display->LCD_String(" L: ");
 
-//    record8(lightnes);
-    record8(0x11);    
+    record8(lightnes);
+//    record8(0x11);    
 
     display->LCD_String("%");
 }                    //read LDR
@@ -70,12 +71,12 @@ void Machine::readTempHumidity() {
     _delay_ms(100);
     display->LCD_String(" T: ");
 
-//    if (result < 0)
-//        record8(0);
-//    else
-//        record8(temperature);
+    if (result < 0)
+        record8(0);
+    else
+        record8(temperature);
 
-    record8(0x66);    
+//    record8(0x66);    
 
     display->LCD_Char((char)0xDF); // imprime "°"
     display->LCD_String("C");
@@ -83,12 +84,12 @@ void Machine::readTempHumidity() {
 
     display->LCD_String(" H: ");
 
-//    if (result < 0)
-//        record8(0);
-//    else
-//        record8(humidity);
-//
-    record8(0x33);
+    if (result < 0)
+        record8(0);
+    else
+        record8(humidity);
+
+//    record8(0x33);
     
     display->LCD_String("%");                
 }
@@ -97,8 +98,8 @@ void Machine::readPreassure(){
     uint8_t preassure = 0;
         
     display->LCD_String(" P: ");	
-    //record8(bmp->readPress());
-    record8(0x15);    
+    record8(bmp->readPress());
+//    record8(0x15);    
     display->LCD_String("atm");	
 }
 
