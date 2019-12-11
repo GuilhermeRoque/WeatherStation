@@ -12,11 +12,11 @@
 
 class LDR {
 public:
-    LDR(uint8_t id);
+    LDR(uint8_t id,ADConverter *adc);
     ~LDR();
     int8_t read(uint8_t * lightness);
 private:
-    ADConverter adc = ADConverter(ADConverter::AVCC);
+    ADConverter *adc;
     uint8_t id;
 };
 

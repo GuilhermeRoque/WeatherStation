@@ -8,7 +8,8 @@ int main(int argc, char** argv) {
     LCD display = LCD(59,60,61,9);
     BMP280 bmp = BMP280();
     EEPROM e = EEPROM();
-    LDR ldr = LDR(54);
+    ADConverter adc = ADConverter(ADConverter::AVCC);
+    LDR ldr = LDR(54,&adc);
     Timer timer = Timer(1000);
     UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
 
