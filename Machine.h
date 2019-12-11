@@ -24,6 +24,7 @@
 #include "Timer.h"
 #include "EEPROM.h"
 #include <time.h>
+#include "LDR.h"
 
 
 enum States {
@@ -42,40 +43,38 @@ enum Event {
 
 class Machine {
     public:
-        Machine(DHT11 dht, BMP280 bmp, LCD display, UART uart, ADConverter adc);
+        Machine(DHT11 *dht,LCD *display,BMP280 *bmp,EEPROM *e,LDR *ldr, Timer *timer, UART *uart);
         ~Machine();
-        void handle_fsm(int event);    
 
         static void event_Command(void *p);
         static void event_Read(void *p);
         static void event_Upload(void *p);
-        void upload();
         
-        //UART uart = UART(9600, UART::DATABITS_8, UART::NONE, UART::STOPBIT_1);
-        //UART uart;
-        int _state;
-        Timer timer = Timer(1000);
 
     private:
 
-        void record16(uint16_t v);
         void record8(uint8_t v);
         void getTime();
+        void readTempHumidity();
+        void readLightness();
+        void readPreassure();
+        void writeHeader();
 
-        ADConverter adc;// = ADConverter(ADConverter::AVCC);
-        LCD display;// = LCD(49,48,47,9);
-        BMP280 bmp;// = BMP280();
-        DHT11 dht;
-        UART uart;
-        EEPROM e = EEPROM();
+        void handle_fsm(int event);    
+        void upload();
 
-        char info, intervalo;
-        uint16_t single;
-        uint8_t temperature;
-        uint8_t humidity;
+        LCD *display;
+        BMP280 *bmp;
+        DHT11 *dht;
+        EEPROM *e;
+        LDR *ldr;
+        Timer *timer;
+        UART *uart;
+        
         uint32_t data;
-        uint8_t count;
-        Milliseconds begin;
+        uint8_t count =0;
+        int _state;
+
 };
 
 #endif	/* MACHINE_H */
