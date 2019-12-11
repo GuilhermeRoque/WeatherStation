@@ -12,7 +12,8 @@ Machine::Machine(DHT11 *dht,LCD *display,BMP280 *bmp,EEPROM *e,LDR *ldr, Timer *
 {
     display->LCD_Init();
     _delay_ms(100);
-    display->LCD_String("  Reading....");
+    display->LCD_Clear();
+    display->LCD_String("   Reading...");
     display->LCD_Command(0xC0);
     display->LCD_String("     ....");
 
@@ -45,9 +46,9 @@ void Machine::upload(){
 }
 
 void Machine::record8(uint8_t v) {
-    char value[sizeof (uint8_t)];
+    char value[100];
     e->write(&v,1);
-    ltoa(v, value, 10);
+    itoa(v, value, 10);
     display->LCD_String(value);
 }
 
@@ -70,7 +71,7 @@ void Machine::readTempHumidity() {
     uint8_t result = dht->read(&temperature,&humidity);
     _delay_ms(100);
     display->LCD_String(" T: ");
-
+    
     if (result < 0)
         record8(0);
     else
@@ -112,6 +113,11 @@ void Machine::writeHeader(){
 
 void Machine::handle_fsm(int event){    
     char info;
+    //////////////////////////
+    uint8_t temperature = 0;
+    uint8_t humidity = 0;
+    char printbuff[100];
+    /////////////////////////
     Milliseconds begin;
 
     if(event == Command){
@@ -130,6 +136,18 @@ void Machine::handle_fsm(int event){
                 writeHeader();
                 readLightness();
                 readTempHumidity();
+//                if(dht->read(&temperature,&humidity) != -1){
+//                    _delay_ms(100);
+//                    //record8(temperature);
+//                    itoa(temperature, printbuff, 10);
+//                    uart->puts("temperature: "); uart->puts(printbuff); uart->puts("C");uart->puts("\r\n");
+//                    _delay_ms(100);
+//                    record8(humidity);
+//                    itoa(humidity, printbuff, 10);
+//                    uart->puts("humidity: "); uart->puts(printbuff); uart->puts("%RH");uart->puts("\r\n");
+//                    _delay_ms(100);
+//                }
+                _delay_ms(100);
                 readPreassure();
                 
                 count++;
